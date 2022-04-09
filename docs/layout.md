@@ -1,6 +1,7 @@
 # Layout and Position
 
 | Property | Abbrev <span style="color:blue">| Value | Abbrev<span style="color:blue"> | Units |
+|----------|--------|-------|--------|------|
 | display  | di     |    none   |    no    |      |
 | display  | di     |   inline   |  in      |      |
 | display  | di     |    block   |  bl      |      |
