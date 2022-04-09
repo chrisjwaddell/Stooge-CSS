@@ -43,4 +43,45 @@
 | align-items | ai | center	|  ce |     |
 | align-items | ai | baseline |	ba |     |
 | align-items | ai | stretch  | st |     |
+| align-content | ac | flex-start |	fs|      |
+| align-content | ac | flex-end	| fe|      |
+| align-content | ac | center  | ce|      |
+| align-content | ac | space-between  | sp  |      |
+| align-content | ac | space-around	 | sa  |      |
+| align-content | ac | stretcg  | st |      |
+| align-self | as |flex-start	|  fs  |      |
+| align-self | as |flex-end  | fe  |      |
+| align-self | as |center | ce  |      |
+| align-self | as |baseline  | ba  |      |
+| align-self | as |stretch	 | st  |      |
+| align-self | as |flex-auto | fa  |      |
+| justify-content  |  jc |  flex-start  | fs  |      |
+| justify-content  |  jc |  flex-end  |  fe  |      |
+| justify-content  |  jc |  center |  ce  |      |
+| justify-content  |  jc |  space-between  |  sp  |      |
+| justify-content  |  jc |  space-around   | sa  |      |
+|  position | po |  static  | st  |      |
+|  position | po |  relative  | re  |      |
+|  position | po |  absolute |  ab  |      |
+|  position | po |  fixed  |  fi  |      |
+| sticky  |  |  |  |  |
+| fixed-bottom  |  |  |  |  |
+| absolute-fill  |  |  |  |  |
+|  top  | t  | 	0,1,2	|  0,1,2  | n |
+|  bottom  | b  | 0,1,2  | 0,1,2  | n |
+|  left   | l  | 0,1,2  | 0,1,2  | n |
+|  right   | r |  0,1,2  | 0,1,2  | n |
+| x-center	|  | when position is absolute |  |  |
+| y-center | | when position is absolute |  |  |
+|  xy-center | | when position is absolute |  |  |
+| float | fl | left  | l  |  |
+| float | fl | right  | r  |  |
+| float | fl | none  | no  |  |
+| float | fl | both  | bo  |  |
+| z-index  | zi | 0,1,2,3,4,5,10,20,30,40,50,999,9999   |  |  |
+| z-index  | zi |   | max  |  |
+| z-index  | zi | inherit  |  ih  |  |
+| z-index  | zi | initial  | ii  |  |
+| z-index  | zi | auto  | au  |  |
+| z-index  | zi | unet  | un  |  |
 
