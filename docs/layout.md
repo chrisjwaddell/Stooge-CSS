@@ -20,5 +20,23 @@
 | flex  |   fl    |   initial   |   ii     |      |
 | flex  |   fl    |   auto   |   au     |      |
 | flex  |   fl    |   none   |   no     |      |
+| flex-grow | fg | 0 | 0 |
+| flex-grow | fg | 1 | 1 |
+| flex-shrink | fs | 0 | 0 |
+| flex-shrink | fs | 1 | 1 |
+| flex-direction | fd | row | ro |
+| flex-direction | fd | row-reverse | rr |
+| flex-direction | fd | column | co |
+| flex-direction | fd | column-reverse | cr |
+| flex-wrap | fw |  wrap  | wr |
+| flex-wrap | fw |  wrap-reverse  | we |
+| flex-wrap | fw |  nowrap  | nw  |
+| align-items | ai | flex-start	| fs |
+| align-items | ai | flex-end	| fe |
+| align-items | ai | flex-auto	 | fa |
+| align-items | ai | center	|  ce |
+| align-items | ai | baseline |	ba |
+| align-items | ai | stretch  | st |
+
 
 
