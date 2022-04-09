@@ -1,6 +1,6 @@
 # Layout and Position
 
-| Property | Abbrev <span style="color:blue">| Value | Abbrev<span style="color:blue"> | Units |
+| Property | <span style="color:blue">Abbrev</span>| Value | <span style="color:blue">Abbrev</span> | Units |
 |----------|--------|-------|--------|------|
 | display  | di     |    none   |    no    |      |
 | display  | di     |   inline   |  in      |      |
@@ -18,6 +18,10 @@
 | flex  |   fl    |   initial   |   ii     |      |
 | flex  |   fl    |   auto   |   au     |      |
 | flex  |   fl    |   none   |   no     |      |
+| flex  |   fl    |  1  |   1     |      |
+| flex  |   fl    |  2  |   2     |      |
+| flex  |   fl    |  3  |   3     |      |
+| flex  |   fl    |  4  |   4     |      |
 | flex-grow | fg | 0 | 0 |      |
 | flex-grow | fg | 1 | 1 |      |
 | flex-shrink | fs | 0 | 0 |      |
@@ -76,14 +80,6 @@
 | z-index  | zi | initial  | ii  |  |
 | z-index  | zi | auto  | au  |  |
 | z-index  | zi | unet  | un  |  |
-
-
-
-
-
-
-
-
 
 
 
