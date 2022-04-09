@@ -1,6 +1,6 @@
 # Layout and Position
 
-| Property | Abbrev <span style="color:blue">| Value | Abbrev<span style="color:blue"> | Units |
+| Property | <span style="color:blue">Abbrev</span>| Value | <span style="color:blue">Abbrev</span> | Units |
 |----------|--------|-------|--------|------|
 | display  | di     |    none   |    no    |      |
 | display  | di     |   inline   |  in      |      |
@@ -22,27 +22,23 @@
 | flex  |   fl    |  2  |   2     |      |
 | flex  |   fl    |  3  |   3     |      |
 | flex  |   fl    |  4  |   4     |      |
-| flex-grow | fg | 0 | 0 |     |
-| flex-grow | fg | 1 | 1 |     |
-| flex-shrink | fs | 0 | 0 |     |
-| flex-shrink | fs | 1 | 1 |     |
-| flex-direction | fd | row | ro |     |
-| flex-direction | fd | row-reverse | rr |     |
-| flex-direction | fd | column | co |     |
-| flex-direction | fd | column-reverse | cr |     |
-| flex-direction | fd | row | ro |     |
-| flex-direction | fd | row-reverse | rr |     |
-| flex-direction | fd | column | co |     |
-| flex-direction | fd | column-reverse | cr |     |
-| flex-wrap | fw |  wrap  | wr |     |
-| flex-wrap | fw |  wrap-reverse  | we |     |
-| flex-wrap | fw |  nowrap  | nw  |     |
-| align-items | ai | flex-start	| fs |     |
-| align-items | ai | flex-end	| fe |     |
-| align-items | ai | flex-auto	 | fa |     |
-| align-items | ai | center	|  ce |     |
-| align-items | ai | baseline |	ba |     |
-| align-items | ai | stretch  | st |     |
+| flex-grow | fg | 0 | 0 |      |
+| flex-grow | fg | 1 | 1 |      |
+| flex-shrink | fs | 0 | 0 |      |
+| flex-shrink | fs | 1 | 1 |      |
+| flex-direction | fd | row | ro |      |
+| flex-direction | fd | row-reverse | rr |      |
+| flex-direction | fd | column | co |      |
+| flex-direction | fd | column-reverse | cr |      |
+| flex-wrap | fw |  wrap  | wr |      |
+| flex-wrap | fw |  wrap-reverse  | we |      |
+| flex-wrap | fw |  nowrap  | nw  |      |
+| align-items | ai | flex-start	| fs |      |
+| align-items | ai | flex-end	| fe |      |
+| align-items | ai | flex-auto	 | fa |      |
+| align-items | ai | center	|  ce |      |
+| align-items | ai | baseline |	ba |      |
+| align-items | ai | stretch  | st |      |
 | align-content | ac | flex-start |	fs|      |
 | align-content | ac | flex-end	| fe|      |
 | align-content | ac | center  | ce|      |
@@ -84,4 +80,3 @@
 | z-index  | zi | initial  | ii  |  |
 | z-index  | zi | auto  | au  |  |
 | z-index  | zi | unet  | un  |  |
-
