@@ -21,13 +21,22 @@
 | height | he | inherit | ih | |
 | height | he | 0,025,05,075,1,125,15,175,2,225,25,3,35,4,45,5,55,6,65,8,10,12,14,16 | | |
 | height | he | 20,24,25,30,32,35,40,45,48,50,55,60,64,70,72,75,80,85,88,96 | a | |
-| height | he | 10,15,20,25,30,33,34,35,40,45,50,55,60,65,66,70,75,80,85,90,95,100 | p, vh  | |
+| height | he | 10,15,20,25,30,33,34,35,40,45,50,55,60,65,66,70,75,80,85,90,95,100 |  | p, vh  |
 | height | he | display: inline-block; width: 20% | he-20-pid | |
 | height | he | display: inline-block; width: 50% | he-50-pid | |
-| min-height | mh | 100 | p, vh | |
+| min-height | mh | 100 |  | p, vh |
 | max-height | mh | 0,025,05,075,1,125,15,175,2,25,3,35,4,45,5,55,6,65,8,10,12,14,16 | | |
 | max-height | mh | 20,24,25,30,32,35,40,45,48,50,55,60,64,70,72,75,80,85,88,96 | a | |
 | max-height | mh | none | no | |
-| max-height | mh | 100 | p, vh | |
+| max-height | mh | 100 | | p, vh |
+| margin | ma | 0,025,05,075,1,125,15,175,2,225,25,3,35,4,45,5,55,6,65,8,10,12,14,16 |  n | |
+| margin | ml, mr, mt, mb, mx, my | auto | au | |
+| margin |  ma  | margin: 0 auto | ma-auto | |
+| padding | pa | 0,025,05,075,1,125,15,175,2,225,25,3,35,4,45,5,55,6,65,8,10,12,14,16 | | |
+| padding | pl,pr,pt,pb,px,px | auto | au | |
+| vertical-align | va | baseline | ba | |
+| vertical-align | va | middle | mi | |
+| vertical-align | va | top | t | |
+| vertical-align | va | bottom | b | |
 
 
