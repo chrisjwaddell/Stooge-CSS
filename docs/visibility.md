@@ -4,7 +4,7 @@
 |----------|--------|-------|--------|------|
 | opacity | op | 100,90,80,70,60,50,40,30,20,10,05,025,0 | | |
 | visibility | visible | visibility: visible | | |
-| visibility | hidden | invisible | | |
+| visibility | hidden | visibility: invisible | | |
 | background-position | bp | left-top | lt | |
 | background-position | bp | left-bottom | lb | |
 | background-position | bp | right top | rt	| |
@@ -19,8 +19,8 @@
 | border-style	| bt | solid | solid | |
 | border-style	| bt | none	| none | |
 | border-width | bw | 0,0125,025,05,075,1,125,15,175,2,225,25,3,4,5,6,7 | | |
-| border-style and border-width	| bsw | 0,1,2,3,4,5,6,7 | |px not rem|
-| border-style and border-width	| bo-t, bo-r, bo-b, bo-l | | px not rem |
+| border-style and border-width	| bsw | 0,1,2,3,4,5,6,7 | | px not rem|
+| border-style and border-width	| bo-t, bo-r, bo-b, bo-l | | | px not rem |
 | border-radius | br | 0,0125,025,05,075,1,125,15,175,2,225,25,3,4,5,6,7 | | |
 
 
