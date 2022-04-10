@@ -17,3 +17,21 @@
 | white-space |  ws |  nowrap | nw | |
 | white-space |  ws |  pre | pre | |
 | letter-spacing | ls | 005-n, 01, 025 | | |
+
+# Other classes
+.truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+link - has some defaults for an anchor link
+
+.list {
+    list-style-type: none;
+}
+
+kbd - for showing keyboard buttons
+
+code-green, blue1, blue2, red, grey, p, o, y - for similating code in an editor
+
