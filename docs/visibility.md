@@ -1,3 +1,7 @@
+# Visibility and Box-Model
+
+| Property | <span style="color:blue">Abbrev</span>| Value | <span style="color:blue">Abbrev</span> | Units |
+|----------|--------|-------|--------|------|
 | opacity | op | 100,90,80,70,60,50,40,30,20,10,05,025,0 | | |
 | visibility | visible | visibility: visible | | |
 | visibility | hidden | invisible | | |
