@@ -22,26 +22,44 @@
 | border-style and border-width	| bsw | 0,1,2,3,4,5,6,7 | | px not rem|
 | border-style and border-width	| bo-t, bo-r, bo-b, bo-l | | | px not rem |
 | border-radius | br | 0,0125,025,05,075,1,125,15,175,2,225,25,3,4,5,6,7 | | |
+| border-radius | br | 9999px  | pill | |
+| border-top-width | btw | solid, 1px | 1 | px not rem |
+| border-right-width | brw | solid, 1px | 1  | px not rem |
+| border-bottom-width | bbw | solid, 1px | 1 | px not rem |
+| border-left-width | blw | solid, 1px | 1 | px not rem |
+| border-top-left-radius | btlr | 0 | 0 | |
+| border-top-right-radius | btrr | 0 | 0 | |
+| border-bottom-left-radius | bblr | 0 | 0 | |
+| border-bottom-right-radius | btlr | 0 | 0 | |
+| outline | ou | 0 | 0 |  |
 
 
-bg-t
-bg-b
-bg-ce
+## Other classes
+.bg-t {
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+bg-b - bottom
+bg-ce - center center
+bg-r - center right
 
-collapse
-br-pill
-br-t-0, br-b-0, br-l-0,br-r-0
-br-tl-0
-br-tr-0
-br-bl-0
-br-br-0
+.collapse {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
 
-outline
-outline-transparent
-outline-0
+.btr-0 {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.bbr-0, .blr-0, .bbr-0
 
-hover-shadow
-shadow1-5
+outline - outline: 1px solid;
+outline-transparent - outline: 1px solid transparent;
+
+
+hover-shadow - hover creates a shadow
+shadow1-5, press-shadow1-5
 
 pre
 
