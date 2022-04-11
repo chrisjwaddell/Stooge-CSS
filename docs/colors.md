@@ -3,8 +3,8 @@
 
 | Property |Abbrev|
 |----------|--------|
-| color | <color></color>-<number> |
-| background-color |  bg-<color>-<number> |
+| color | &lt;color&gt;-&lt;number&gt; |
+| background-color | bg-<color>-<number> |
 | border-color |  b-<color>-<number> |
 | color - on hover |  hover-<color>-<number> |
 | background-color - on hover |  hover-bg-<color>-<number> |
