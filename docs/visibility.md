@@ -1,6 +1,7 @@
 # Visibility and Box-Model
 
-| Property | <span style="color:blue">Abbrev</span>| Value | <span style="color:blue">Abbrev</span> | Units |
+
+| Property |Abbrev| Value |Abbrev | Units |
 |----------|--------|-------|--------|------|
 | opacity | op | 100,90,80,70,60,50,40,30,20,10,05,025,0 | | |
 | visibility | visible | visibility: visible | | |
@@ -32,6 +33,13 @@
 | border-bottom-left-radius | bblr | 0 | 0 | |
 | border-bottom-right-radius | btlr | 0 | 0 | |
 | outline | ou | 0 | 0 |  |
+| cursor |  cursor | auto | auto |  |
+| cursor |  cursor | default | default |  |
+| cursor |  cursor | pointer | pointer |  |
+| cursor |  cursor | wait | wait |  |
+| cursor |  cursor | move | move |  |
+| cursor |  cursor | not-allowed | not-allowed |  |
+
 
 
 ## Other classes
@@ -59,7 +67,7 @@ outline-transparent - outline: 1px solid transparent;
 
 
 hover-shadow - hover creates a shadow
-shadow1-5, press-shadow1-5
+shadow1-5, press-shadow1-5 - creates shadows
 
 pre
 

@@ -1,6 +1,7 @@
 # Layout and Position
 
-| Property | <span style="color:blue">Abbrev</span>| Value | <span style="color:blue">Abbrev</span> | Units |
+
+| Property |Abbrev| Value |Abbrev | Units |
 |----------|--------|-------|--------|------|
 | display  | di     |    none   |    no    |      |
 | display  | di     |   inline   |  in      |      |
@@ -60,13 +61,13 @@
 |  position | po |  relative  | re  |      |
 |  position | po |  absolute |  ab  |      |
 |  position | po |  fixed  |  fi  |      |
-| sticky  |  |  |  |  |
-| fixed-bottom  |  |  |  |  |
-| absolute-fill  |  |  |  |  |
 |  top  | t  | 	0,1,2	|  0,1,2  | n |
 |  bottom  | b  | 0,1,2  | 0,1,2  | n |
 |  left   | l  | 0,1,2  | 0,1,2  | n |
 |  right   | r |  0,1,2  | 0,1,2  | n |
+| sticky  |  |  |  |  |
+| fixed-bottom  |  |  |  |  |
+| absolute-fill  |  |  |  |  |
 | x-center	|  | when position is absolute |  |  |
 | y-center | | when position is absolute |  |  |
 |  xy-center | | when position is absolute |  |  |
@@ -80,3 +81,13 @@
 | z-index  | zi | initial  | ii  |  |
 | z-index  | zi | auto  | au  |  |
 | z-index  | zi | unet  | un  |  |
+
+
+## Other classes
+The following classes are for absolute positioning:
+sticky - position: sticky !important;
+fixed-bottom
+absolute-fill
+x-center
+y-center
+xy-center

@@ -1,6 +1,6 @@
 # Spacing
 
-| Property | <span style="color:blue">Abbrev</span>| Value | <span style="color:blue">Abbrev</span> | Units |
+| Property |Abbrev| Value |Abbrev | Units |
 |----------|--------|-------|--------|------|
 | width  | wi   | auto | au |  |
 | width  | wi     | inherit | ii |  |
@@ -31,7 +31,7 @@
 | max-height | mh | 100 | | p, vh |
 | margin | ma | 0,025,05,075,1,125,15,175,2,225,25,3,35,4,45,5,55,6,65,8,10,12,14,16 |  n | |
 | margin | ml, mr, mt, mb, mx, my | auto | au | |
-| margin |  ma  | margin: 0 auto | ma-auto | |
+| margin |  ma  | margin: 0 auto | auto | |
 | padding | pa | 0,025,05,075,1,125,15,175,2,225,25,3,35,4,45,5,55,6,65,8,10,12,14,16 | | |
 | padding | pl,pr,pt,pb,px,px | auto | au | |
 | vertical-align | va | baseline | ba | |
@@ -39,4 +39,7 @@
 | vertical-align | va | top | t | |
 | vertical-align | va | bottom | b | |
 
-
+## Other classes
+measure - max-width: 30em;
+measure-wide - max-width: 34em;
+measure-narrow - max-width: 20em;

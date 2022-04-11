@@ -1,6 +1,6 @@
 # Text
 
-| Property | <span style="color:blue">Abbrev</span>| Value | <span style="color:blue">Abbrev</span> | Units |
+| Property |Abbrev| Value |Abbrev | Units |
 |----------|--------|-------|--------|------|
 | text-align | ta | center | ce | |
 | text-align | ta | left | l | |
@@ -12,13 +12,19 @@
 | text-transform | tt | lowercase | lo | |
 | text-transform | tt | uppercase | up | |
 | text-transform | tt | none | no | |
+| text-decoration | strike | text-decoration: line-through; |  | |
+| text-decoration | underline | text-decoration: underline; |  | |
+| text-decoration | no-underline | text-decoration: none; |  | |
 | line-height | lh | 075,1,125 | | |
 | white-space |  ws |  normal | normal | |
 | white-space |  ws |  nowrap | nw | |
 | white-space |  ws |  pre | pre | |
 | letter-spacing | ls | 005-n, 01, 025 | | |
 
-# Other classes
+## Other classes
+headline - font-size: 6rem;
+subheadline - font-size: 5rem;
+
 .truncate {
     white-space: nowrap;
     overflow: hidden;
