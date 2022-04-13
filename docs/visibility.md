@@ -21,7 +21,7 @@
 | border-style	| bt | none	| none | |
 | border-width | bw | 0,0125,025,05,075,1,125,15,175,2,225,25,3,4,5,6,7 | | |
 | border-style and border-width	| bsw | 0,1,2,3,4,5,6,7 | | px not rem|
-| border-style and border-width	| bo-t, bo-r, bo-b, bo-l | | | px not rem |
+| border-top/right/bottom/left-style | btw-0, brw-0, bbw-0, blw-0 | | | |
 | border-radius | br | 0,0125,025,05,075,1,125,15,175,2,225,25,3,4,5,6,7 | | |
 | border-radius | br | 9999px  | pill | |
 | border-top-width | btw | solid, 1px | 1 | px not rem |

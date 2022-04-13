@@ -25,8 +25,8 @@
 | flex  |   fl    |  4  |   4     |      |
 | flex-grow | fg | 0 | 0 |      |
 | flex-grow | fg | 1 | 1 |      |
-| flex-shrink | fs | 0 | 0 |      |
-| flex-shrink | fs | 1 | 1 |      |
+| flex-shrink | fh | 0 | 0 |      |
+| flex-shrink | fh | 1 | 1 |      |
 | flex-direction | fd | row | ro |      |
 | flex-direction | fd | row-reverse | rr |      |
 | flex-direction | fd | column | co |      |
@@ -71,10 +71,10 @@
 | x-center	|  | when position is absolute |  |  |
 | y-center | | when position is absolute |  |  |
 |  xy-center | | when position is absolute |  |  |
-| float | fl | left  | l  |  |
-| float | fl | right  | r  |  |
-| float | fl | none  | no  |  |
-| float | fl | both  | bo  |  |
+| float | fo | left  | l  |  |
+| float | fo | right  | r  |  |
+| float | fo | none  | no  |  |
+| float | fo | both  | bo  |  |
 | z-index  | zi | 0,1,2,3,4,5,10,20,30,40,50,999,9999   |  |  |
 | z-index  | zi |   | max  |  |
 | z-index  | zi | inherit  |  ih  |  |
