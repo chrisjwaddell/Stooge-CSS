@@ -4,8 +4,10 @@
 |----------|--------|-------|--------|------|
 | font-size | fs | 025,05,075,0875,1,125,15,175,2,225,25,3,35,4,5,6 | | |
 | font-weight | fw | 100-900 | 1,2,3,4,5,6,7,8,9 | |
+| font-weight |  fw |  normal | normal | |
 | font-family | sans-serif, serif, system-sans-serif, system-serif, code, courier, helvetica, avenir, athelas, georgia, times, bodoni, calisto, garamond, baskerville, font-sans, font-serif, font-mono | | | |
-| font-style | italic, normal | | | |
+| font-style |italic |  | | |
+| font-style |fs |  normal |normal | |
 | text-align | ta | center | ce | |
 | text-align | ta | left | l | |
 | text-align | ta | right | r | |

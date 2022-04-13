@@ -11,3 +11,6 @@
 | border-color - on hover | hover-b-&lt;color&gt;-&lt;number&gt; | border-purple-14 |
 | striped-color - nth-child(odd) | striped-&lt;color&gt;-&lt;number&gt; | striped-brown-26 |
 
+For a full list of colors, see:
+https://chrisjwaddell.github.io/Stooge-CSS/index.html#colors
+
