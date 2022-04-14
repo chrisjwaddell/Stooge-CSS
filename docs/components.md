@@ -1,13 +1,6 @@
 # Components
 
-btn
-btn-group
-code
-pre
-kbd
-
-
-| Component |Description| |
+| Component |Description|
 |----------|--------|
 | btn | Button component |
 | btn-group | Buttons joined together |

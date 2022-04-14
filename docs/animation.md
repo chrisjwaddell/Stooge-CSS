@@ -51,7 +51,6 @@ https://chrisjwaddell.github.io/Stooge-CSS/index.html#colors
 ## Box model Animations
 | Class name  | Description |
 |----------|--------|
-
 | hf/hover/focus-outline | outline: 1px solid; - on hover, on focus or both |
 | hf/hover/focus-outline-transparent | outline: 1px transparent; - on hover, on focus or both |
 | hf/hover/focus-ou-0 | outline: 0; - on hover, on focus or both |
