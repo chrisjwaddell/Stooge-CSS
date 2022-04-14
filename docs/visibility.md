@@ -19,7 +19,7 @@
 | border-style	| bt | dashed | dashed | |
 | border-style	| bt | solid | solid | |
 | border-style	| bt | none	| none | |
-| border-width | bw | 0,0125,025,05,075,1,125,15,175,2,225,25,3,4,5,6,7 | | |
+| border-width | bw | 0,1,2,3,4,5,6,7,8,9,10  | | px not rem |
 | border-style and border-width	| bsw | 0,1,2,3,4,5,6,7 | | px not rem|
 | border-top/right/bottom/left-style | btw-0, brw-0, bbw-0, blw-0 | | | |
 | border-radius | br | 0,0125,025,05,075,1,125,15,175,2,225,25,3,4,5,6,7 | | |
@@ -32,6 +32,8 @@
 | border-top-right-radius | btrr | 0 | 0 | |
 | border-bottom-left-radius | bblr | 0 | 0 | |
 | border-bottom-right-radius | btlr | 0 | 0 | |
+| outline | outline | outline: 1px solid; | | |
+| outline | outline-transparent | outline: 1px solid transparent; | | |
 | outline | ou | 0 | 0 |  |
 | cursor |  cursor | auto | auto |  |
 | cursor |  cursor | default | default |  |
@@ -61,9 +63,6 @@ bg-r - center right
     border-bottom-right-radius: 0;
 }
 .bbr-0, .blr-0, .bbr-0
-
-outline - outline: 1px solid;
-outline-transparent - outline: 1px solid transparent;
 
 
 hover-shadow - hover creates a shadow

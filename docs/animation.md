@@ -2,6 +2,35 @@
 
 Animation in the Stooge CSS context refers to the *hover* and *focus* (button click) states.
 
+## Text Animation
+The table below shows the text properties that can be animated.
+*Hover* and *focus* states can be treated seperately or can be treated the same together. This is relevant for animation on buttons, fields, anchor tags and other components which have both *hover* and *focus* CSS events.
+The *hover-* group of class names are for hover only, when you hover away, it goes back to normal state.
+The *focus-* group of class names are for focus only. The focus state happens when you use the keyboard to tab into it or click on something, and is lost when you tab into or click on something else.
+The *hf-* (hover and focus) group of class names are hover and focus combined. When you hover over something, the effect begins, and if you click on it and hover away, the effect stays, unlike with either state on their own.
+
+Font properties below can be animated on hover and on focus. They come with default transition. For color animation on text, see the Color Animation section.
+
+Animation on colors must include a transition class. If you do animation on multiple properties, use the *tr-all* class.
+
+
+
+| Property |Abbrev| Example |
+|----------|--------|--------|
+| font-weight | hf/hover/focus-fw-1/2/3/4/5/6/7/8/9 | |
+| font-weight | hf/hover/focus-fw-normal | |
+| font-weight | hf/hover/focus-bold | |
+| font-style | hf/hover/focus-italic | |
+| font-style | hf/hover/focus-fs-normal | |
+| text-decoration | hf/hover/focus-underline | |
+| text-decoration | hf/hover/focus-strike | |
+| text-decoration | hf/hover/focus-underline | |
+| text-decoration | hf/hover/focus-no-underline | |
+| font-style | hf/hover/focus-italic | |
+| font-style | hf/hover/focus-fs-normal | |
+| text-shadow | hover-ts-11/21/31/12/22/32/41/42/43 | |
+| text-shadow | hover-ts-11/21/31/12/22/32/41/42/43 | |
+
 ## Color Animation
 Animations can be done on colors in the following properties: *background-color*, *border-color* or *color*.
 
@@ -15,50 +44,47 @@ Hover and focus states are treated the same for color unlike for Text and Genera
 
 A transition class needs to be added to get smoother animation timing. See *Transition classes* below.
 
-A full list of colors, see:
+For a full list of colors, see:
 https://chrisjwaddell.github.io/Stooge-CSS/index.html#colors
 
-## Text Animation
-The table beolow shows the text properties that can be animated.
-*Hover* and *focus* states are treated seperately or can be treated the same together.
-The *hover-* group of class names are for hover only, when you hover away, it goes back to normal state.
-The *focus-* group of class names are for focus only, when you click on something else, you lose the animation properties but they stay after you clicked the button but not on hover.
-The *hf-* (hover, focus) group of class names are hover and focus combined. When you hover over something, the effect begins, and if you click on it and hover away, the effect stays, unlike with either state on their own.
 
-The font properties below can be animated on hover and on focus (button click). For color animation on text, see the Color Animation section above.
+## Box model Animations
+| Class name  | Description |
+|----------|--------|
 
+| hf/hover/focus-outline | outline: 1px solid; - on hover, on focus or both |
+| hf/hover/focus-outline-transparent | outline: 1px transparent; - on hover, on focus or both |
+| hf/hover/focus-ou-0 | outline: 0; - on hover, on focus or both |
 
-| Property |Abbrev| Example |
-|----------|--------|--------|
-| font-weight | hf/hover/focus-ft-1/2/3/4/5/6/7/8/9 | |
-| font-weight | hf/hover/focus-fw-normal | |
-| font-weight | hf/hover/focus-bold | |
-| font-style | hf/hover/focus-italic | |
-| font-style | hf/hover/focus-fs-normal | |
-| text-decoration | hf/hover/focus-underline | |
-| text-decoration | hf/hover/focus-strike | |
-| text-decoration | hf/hover/focus-underline | |
-| text-decoration | hf/hover/focus-no-underline | |
-| font-style | hf/hover/focus-italic
-| font-style | hf/hover/focus-fs-normal
-| text-shadow | hover-ts-11/21/31/12/22/32/41/42/43 | |
+| focus-shadow-1/2/3/4/5 | Shadow disappears on button press(focus), simulates a button pressing down  |
 
-
-bg-animate - required for background animation
-hover-background - transition on hover
-
-rotate-45,90,135,180,225,270,315 - rotate transform
+## Transform Animation
+| Class name  | Description |
+|----------|--------|
+| rotate-45,90,135,180,225,270,315 | rotate transforms |
+| hf/hover/focus-grow | Made an item get bigger |
+| hf/hover/focus-grow-large | Made an item get even bigger |
 
 
 ## General Animation
-
-hover-shadow-fw5,7,9 - Shadow on hover
-text-shadow-11,21,31,12,22,32 - Text shadow
-fade, dim - classes for dim and fade
-glow - Made an item glow
-grow - Made an item get bigger
-grow-large - Made an item get even bigger
-shadow-hover - Show a shadow on hover
-
+| Class name  | Description |
+|----------|--------|
+| hf/hover/focus-dim | Dims an object a little |
+| hf/hover/focus-glow | Made an item glow |
+| pointer | cursor becomes pointer on hover |
 
 ## Transition classes
+Color animation must have a transition class added for smooth transition.
+Transition classes are included by default for text animations. If you want to do more than one animation, use the *transition-all* class.
+
+| Class name  | Description |
+|----------|--------|
+| tr-bc |  Background transition |
+| tr-bo |  Border transition  |
+| tr-co |  Font color transition  |
+| tr-tr |  Transform transition  |
+| tr-all |  All transition for when you combine different animations  |
+| tr-fast | Fast transition - 0.2s |
+| tr-medium | Medium transition - 0.5s |
+| tr-slow | Slow transition - 1s |
+
