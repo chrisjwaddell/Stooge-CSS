@@ -55,7 +55,6 @@ https://chrisjwaddell.github.io/Stooge-CSS/index.html#colors
 | hf/hover/focus-outline | outline: 1px solid; - on hover, on focus or both |
 | hf/hover/focus-outline-transparent | outline: 1px transparent; - on hover, on focus or both |
 | hf/hover/focus-ou-0 | outline: 0; - on hover, on focus or both |
-
 | focus-shadow-1/2/3/4/5 | Shadow disappears on button press(focus), simulates a button pressing down  |
 
 ## Transform Animation
@@ -75,16 +74,24 @@ https://chrisjwaddell.github.io/Stooge-CSS/index.html#colors
 
 ## Transition classes
 Color animation must have a transition class added for smooth transition.
-Transition classes are included by default for text animations. If you want to do more than one animation, use the *transition-all* class.
+Transition classes are included by default for text animations. If you want to do more than one animation, use the *tr-all* class.
 
 | Class name  | Description |
 |----------|--------|
-| tr-bc |  Background transition |
-| tr-bo |  Border transition  |
-| tr-co |  Font color transition  |
-| tr-tr |  Transform transition  |
-| tr-all |  All transition for when you combine different animations  |
-| tr-fast | Fast transition - 0.2s |
-| tr-medium | Medium transition - 0.5s |
-| tr-slow | Slow transition - 1s |
+| tr-bc, hover/focus-tr-bc |  Background transition |
+| tr-bo, hover/focus-tr-bo |  Border transition  |
+| tr-co, hover/focus-tr-co |  Font color transition  |
+| tr-tr, hover/focus-tr-tr |  Transform transition  |
+| tr-all, hover/focus-tr-all |  All transition for when you combine different animations  |
+| tr-fast, hover/focus-tr-fast | Fast transition - 0.2s |
+| tr-medium, hover/focus-tr-medium | Medium transition - 0.5s |
+| tr-slow, hover/focus-tr-slow | Slow transition - 1s |
+
+You can have different transitions statements for :hover and :focus with different timings however browsers may not all function as predicted.
+An example of some classes used together:
+*hover-outline hover-bg-blue-12 focus-bw-6 focus-underline hover-tr-all hover-tr-slow focus-tr-all focus-tr-fast*
+hover - outline bg-blue-12 - slow transition (hover-tr-all hover-tr-slow)
+focus - bw-6 underline  - fast transition ( focus-tr-all focus-tr-fast)
+
+On hover, outline and blue background animation effects appear slow (1s). On click, thick border width and underline appear quickly (0.3s). This doesn't always happen perfectly.
 
