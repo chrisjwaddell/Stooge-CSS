@@ -70,6 +70,7 @@ https://chrisjwaddell.github.io/Stooge-CSS/index.html#colors
 | hf/hover/focus-dim | Dims an object a little |
 | hf/hover/focus-glow | Made an item glow |
 | pointer | cursor becomes pointer on hover |
+| blinker, hover-blinker | Flashing effect, flashes on and off, you can do it on hover or always |
 
 ## Transition classes
 Color animation must have a transition class added for smooth transition.
