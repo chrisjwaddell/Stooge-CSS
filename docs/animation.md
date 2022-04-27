@@ -24,7 +24,6 @@ Animation on colors must include a transition class. If you do animation on mult
 | font-style | hf/hover/focus-fs-normal | |
 | text-decoration | hf/hover/focus-underline | |
 | text-decoration | hf/hover/focus-strike | |
-| text-decoration | hf/hover/focus-underline | |
 | text-decoration | hf/hover/focus-no-underline | |
 | font-style | hf/hover/focus-italic | |
 | font-style | hf/hover/focus-fs-normal | |
@@ -38,8 +37,8 @@ Hover and focus states are treated the same for color unlike for Text and Genera
 
 | Property |Abbrev| Example |
 |----------|--------|--------|
-| background-color | bg-(color-ID) | bg-orange-12 |
-| border-color | b-(color-ID) | b-teal-16 |
+| background-color | bc-(color-ID) | bc-orange-12 |
+| border-color | bc-(color-ID) | bc-teal-16 |
 | color | (color-ID) | green-15 |
 
 A transition class needs to be added to get smoother animation timing. See *Transition classes* below.
@@ -60,15 +59,15 @@ https://chrisjwaddell.github.io/Stooge-CSS/index.html#colors
 | Class name  | Description |
 |----------|--------|
 | rotate-45,90,135,180,225,270,315 | rotate transforms |
-| hf/hover/focus-grow | Made an item get bigger |
-| hf/hover/focus-grow-large | Made an item get even bigger |
+| hf/hover/focus-grow | Make an item get bigger |
+| hf/hover/focus-grow-large | Make an item get even bigger |
 
 
 ## General Animation
 | Class name  | Description |
 |----------|--------|
 | hf/hover/focus-dim | Dims an object a little |
-| hf/hover/focus-glow | Made an item glow |
+| hf/hover/focus-glow | Make an item glow |
 | pointer | cursor becomes pointer on hover |
 | blinker, hover-blinker | Flashing effect, flashes on and off, you can do it on hover or always |
 
