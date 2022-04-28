@@ -58,7 +58,7 @@ https://chrisjwaddell.github.io/Stooge-CSS/index.html#colors
 ## Transform Animation
 | Class name  | Description |
 |----------|--------|
-| rotate-45,90,135,180,225,270,315 | rotate transforms |
+| rotate-45, 90, 135, 180, 225, 270, 315 | rotate transforms |
 | hf/hover/focus-grow | Make an item get bigger |
 | hf/hover/focus-grow-large | Make an item get even bigger |
 

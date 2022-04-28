@@ -61,10 +61,10 @@
 |  position | po |  relative  | re  |      |
 |  position | po |  absolute |  ab  |      |
 |  position | po |  fixed  |  fi  |      |
-|  top  | t  | 	0,1,2	|  0,1,2  | n |
-|  bottom  | b  | 0,1,2  | 0,1,2  | n |
-|  left   | l  | 0,1,2  | 0,1,2  | n |
-|  right   | r |  0,1,2  | 0,1,2  | n |
+|  top  | t  | 	0, 1, 2	|  0, 1, 2  | n |
+|  bottom  | b  | 0, 1, 2  | 0, 1, 2  | n |
+|  left   | l  | 0, 1, 2  | 0, 1, 2  | n |
+|  right   | r |  0, 1, 2  | 0, 1, 2  | n |
 | sticky  |  |  |  |  |
 | fixed-bottom  |  |  |  |  |
 | absolute-fill  |  |  |  |  |
@@ -75,7 +75,7 @@
 | float | fo | right  | r  |  |
 | float | fo | none  | no  |  |
 | float | fo | both  | bo  |  |
-| z-index  | zi | 0,1,2,3,4,5,10,20,30,40,50,999,9999   |  |  |
+| z-index  | zi | 0, 1, 2, 3, 4, 5, 10, 20, 30, 40, 50, 999, 9999   |  |  |
 | z-index  | zi |   | max  |  |
 | z-index  | zi | inherit  |  ih  |  |
 | z-index  | zi | initial  | ii  |  |
