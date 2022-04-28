@@ -45,7 +45,7 @@
 | align-content | ac | center  | ce|      |
 | align-content | ac | space-between  | sp  |      |
 | align-content | ac | space-around	 | sa  |      |
-| align-content | ac | stretcg  | st |      |
+| align-content | ac | stretch  | st |      |
 | align-self | as |flex-start	|  fs  |      |
 | align-self | as |flex-end  | fe  |      |
 | align-self | as |center | ce  |      |
