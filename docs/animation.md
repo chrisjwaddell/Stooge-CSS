@@ -6,9 +6,9 @@ Animation in the Stooge CSS context refers to the *hover* and *focus* (button cl
 
 ## Text Animation
 The table below shows the text properties that can be animated.
-*Hover* and *focus* states can be treated seperately or can be treated the same together. This is relevant for animation on buttons, fields, anchor tags and other components which have both *hover* and *focus* CSS events.
-The *hover-* group of class names are for hover only, when you hover away, it goes back to normal state.
-The *focus-* group of class names are for focus only. The focus state happens when you use the keyboard to tab into it or click on something, and is lost when you tab into or click on something else.
+*Hover* and *focus* states can be treated seperately or can be treated the same together. This is relevant for animation on buttons, fields, anchor tags and other components which have both *hover* and *focus* CSS events.\
+The *hover-* group of class names are for hover only, when you hover away, it goes back to normal state.\
+The *focus-* group of class names are for focus only. The focus state happens when you use the keyboard to tab into it or click on something, and is lost when you tab into or click on something else.\
 The *hf-* (hover and focus) group of class names are hover and focus combined. When you hover over something, the effect begins, and if you click on it and hover away, the effect stays, unlike with either state on their own.
 
 Font properties below can be animated on hover and on focus. They come with default transition. For color animation on text, see the Color Animation section.

@@ -24,5 +24,5 @@
 
 
 For a full list of colors, see:
-https://chrisjwaddell.github.io/Stooge-CSS/index.html#colors
+https://chrisjwaddell.github.io/Stooge-CSS/colors.html
 
