@@ -1,0 +1,174 @@
+/* ==========================================================================
+   #TYPOGRAPHY
+   ========================================================================== */
+
+/**
+ * All font-sizes are based on the rem (root em). This makes it easier to increase font size on
+ * small devices and generally easier to manage.
+ * rem is like a CSS variable for typography.
+ */
+
+:root {
+    font-size: 16px;
+}
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video,
+input,
+button,
+optgroup,
+select,
+textarea {
+    font-size: 1rem;
+}
+
+p {
+    font-size: 1.25rem;
+    line-height: 1.4;
+}
+
+@media screen and (max-width: 899px) {
+    p {
+        font-size: 1.125rem;
+    }
+}
+
+h1 {
+    font-size: 2.25rem;
+    line-height: 1.333333333
+}
+
+h2 {
+    font-size: 1.875rem;
+    line-height: 1.6
+}
+
+h3 {
+    font-size: 1.5rem;
+    line-height: 1
+}
+
+h4 {
+    font-size: 1.25rem;
+    line-height: 1.2
+}
+
+h5 {
+    font-size: 1rem;
+    line-height: 1.5
+}
+
+h6 {
+    font-size: .875rem;
+    line-height: 1.714285714
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dl,
+blockquote,
+p,
+address,
+hr,
+table,
+fieldset,
+figure,
+pre {
+    margin-bottom: 1.5rem;
+}
+
+/**
+ * Where `margin-left` is concerned we want to try and indent certain elements
+ * by a consistent amount. Define that amount once,here.
+ */
+ul,
+ol,
+dd {
+    margin-left: 1rem;
+}
