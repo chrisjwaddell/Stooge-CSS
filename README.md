@@ -46,10 +46,9 @@ Just add *-m1*, *-m2*, up to *-m5* to the class name.
 
 # How to get started
 
-Add this to the &lt;head&gt; of your HTML file:\
-`https://raw.githubusercontent.com/chrisjwaddell/Stooge-CSS/main/dist/stooge.min.css\
-https://raw.githubusercontent.com/chrisjwaddell/Stooge-CSS/main/dist/stooge-responsive.min.css\
-https://raw.githubusercontent.com/chrisjwaddell/Stooge-CSS/main/dist/stooge-colors.min.css`
+Add this to the &lt;head&gt; of your HTML file:\`https://raw.githubusercontent.com/chrisjwaddell/Stooge-CSS/main/dist/stooge.min.css`\
+`https://raw.githubusercontent.com/chrisjwaddell/Stooge-CSS/main/dist/stooge-responsive.min.css`\
+`https://raw.githubusercontent.com/chrisjwaddell/Stooge-CSS/main/dist/stooge-colors.min.css`
 
 ## Table of Contents
 - [Getting Started](https://chrisjwaddell.github.io/Stooge-CSS/#getting-started)
