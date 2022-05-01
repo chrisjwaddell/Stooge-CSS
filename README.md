@@ -1,12 +1,9 @@
 # Stooge CSS
-Stooge CSS is a lightweight CSS framework with intuitive, consistent CSS class names making it very easy to use.
-
-Stooge CSS is a utility-based CSS framework. Write your CSS in HTML abbreviated for super fast development.
-
-Margin and padding are easier to understand eg pl-35 is padding-left: 3.5rem;. You can add buttons with any font colour, background, border, shadows or with hover effects all in one line of code. You can add any button you want with any colour or size, and it takes 20 seconds.
+Stooge CSS is a utility-based CSS framework with intuitive, consistent CSS class names making it very easy to use. Write your CSS in HTML abbreviated for super fast development.
 
 Stooge CSS has components, responsiveness and an easy to use color system. So easy and so powerful.
 
+Margin and padding are easier to understand eg pl-35 is padding-left: 3.5rem;. You can add buttons with any font colour, background, border, shadows or with hover effects all in one line of code. You can add any button you want with any colour or size, and it takes 20 seconds.
 
 ## How Stooge CSS works
 There are two parts to the CSS class name (three if you use units other than *rem*). The format is as follows:
@@ -49,6 +46,10 @@ Just add *-m1*, *-m2*, up to *-m5* to the class name.
 
 # How to get started
 
+Add this to the &lt;head&gt; of your HTML file:
+`https://raw.githubusercontent.com/chrisjwaddell/Stooge-CSS/main/dist/stooge.min.css
+https://raw.githubusercontent.com/chrisjwaddell/Stooge-CSS/main/dist/stooge-responsive.min.css
+https://raw.githubusercontent.com/chrisjwaddell/Stooge-CSS/main/dist/stooge-colors.min.css`
 
 ## Table of Contents
 - [Getting Started](https://chrisjwaddell.github.io/Stooge-CSS/#getting-started)
