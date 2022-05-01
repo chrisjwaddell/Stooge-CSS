@@ -1,0 +1,23 @@
+/*!
+ * ----------------------------------------------------------------------------
+ * Stooge CSS (v1.0) - https: //github.com/chrisjwaddell/Stooge-CSS
+ * Licensed under MIT (https://github.com/chrisjwaddell/Stooge-CSS/blob/main/LICENSE)
+ * ----------------------------------------------------------------------------
+*/
+
+/* ==========================================================================
+   #BOX-SIZING
+   ========================================================================== */
+
+/**
+ * More sensible default box-sizing:
+ * css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
+ */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	 box-sizing: inherit;
+}

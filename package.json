@@ -1,0 +1,47 @@
+{
+    "name": "stooge-css",
+    "version": "1.0.0",
+    "description": "A powerful, intuitive CSS framework for fast web development",
+    "style": "dist/stooge.min.css",
+    "main": "dist/stooge.css",
+    "homepage": "https://github.com/chrisjwaddell/Stooge-CSS",
+    "author": "Chris Waddell",
+    "license": "MIT",
+    "keywords": [
+        "css",
+        "front-end",
+        "framework",
+        "responsive",
+        "fast",
+        "color"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/chrisjwaddell/Stooge-CSS.git"
+    },
+    "scripts": {
+        "//": [
+            "echo Run build-prod-1 and build-prod-2 after that"
+        ],
+        "build-prod-1": "webpack --config webpack-prod-min.js",
+        "build-prod-2": "webpack --config webpack-CSS-non-minify.js",
+        "build-purgecss": "node ./config/purgecss.js"
+    },
+    "dependencies": {
+        "css-loader": "^6.7.1",
+        "remove-files-webpack-plugin": "^1.5.0",
+        "webpack": "^5.72.0"
+    },
+    "devDependencies": {
+        "clean-css-loader": "^4.1.1",
+        "clean-webpack-plugin": "^4.0.0",
+        "css-minimizer-webpack-plugin": "^3.4.1",
+        "extract-loader": "^5.1.0",
+        "file-loader": "^6.2.0",
+        "mini-css-extract-plugin": "^2.6.0",
+        "optimize-css-assets-webpack-plugin": "^6.0.1",
+        "terser-webpack-plugin": "^5.3.1",
+        "uglifyjs-webpack-plugin": "^2.2.0",
+        "webpack-cli": "^4.9.2"
+    }
+}
