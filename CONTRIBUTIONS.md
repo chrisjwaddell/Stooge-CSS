@@ -10,7 +10,7 @@ First off,  thanks for your interest in contributing to Stooge CSS. If you'd lik
 
 
 ### Feature suggestions
-Any feature suggestions or classes you wish were in, leave a message in the [Issues tab](https://github.com/chrisjwaddell/Stooge-CSS/issues).
+Any feature suggestions or classes you would like to have, leave a message in the [Issues tab](https://github.com/chrisjwaddell/Stooge-CSS/issues).
 
 
 ### Report a bug
@@ -18,16 +18,16 @@ Click the [Issues tab](https://github.com/chrisjwaddell/Stooge-CSS/issues). Plea
 
 
 ### Code suggestions
-Feel free to propose changes to this document in a pull request.
+Feel free to propose changes to this document in a pull request. Use the *develop* branch.
 
 
 ### Design
-Any design contributions or suggestons you have, we'd love to see them. You can upload documents in a pull request.
+Any design contributions or suggestons you have, we'd love to see them. You can upload documents in a pull request. Use the *develop* branch.
 
 
 ### Content
 We would love to hear from you if you have documentation suggestions such as text or documentation layout, even this CONTRIBUTIONS.md file.
-You can upload documents in a pull request or the [Issues tab](https://github.com/chrisjwaddell/Stooge-CSS/issues) for shorter messages.
+You can upload documents in a pull request (use the *develop* branch.)or the [Issues tab](https://github.com/chrisjwaddell/Stooge-CSS/issues) for shorter messages.
 
 
 ### General feedback
@@ -39,4 +39,6 @@ Because this is a new project, we are taking feedback through the [Issues tab](h
 
 
 If you aren't sure of how to do a pull request, see [Free Code Camp Contributor's Guide](https://github.com/freeCodeCamp/how-to-contribute-to-open-source/blob/main/CONTRIBUTING.md)
+
+To contact the creator, contact me through [Twitter](https://twitter.com/waddellchrisj).
 

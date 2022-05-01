@@ -1,5 +1,7 @@
 # Animation
 
+[See the Animation documentation webpage](https://chrisjwaddell.github.io/Stooge-CSS/animation.html)
+
 Animation in the Stooge CSS context refers to the *hover* and *focus* (button click) states.
 
 ## Text Animation

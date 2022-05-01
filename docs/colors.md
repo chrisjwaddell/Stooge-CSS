@@ -1,5 +1,6 @@
 # Colors
 
+[See the Colors documentation webpage](https://chrisjwaddell.github.io/Stooge-CSS/colors.html)
 
 | Property |Abbrev| Example |
 |----------|--------|--------|

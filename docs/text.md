@@ -1,5 +1,7 @@
 # Text
 
+[See the Text documentation webpage](https://chrisjwaddell.github.io/Stooge-CSS/text.html)
+
 | Property |Abbrev| Value |Abbrev | Units |
 |----------|--------|-------|--------|------|
 | font-size | fs | 025, 05, 075, 0875, 1, 1125, 125, 15, 175, 2, 225, 25, 3, 35, 4, 5, 6 | | |

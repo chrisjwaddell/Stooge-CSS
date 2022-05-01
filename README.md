@@ -5,6 +5,8 @@ Stooge CSS has components, responsiveness and an easy to use color system. So ea
 
 Margin and padding are easier to understand eg pl-35 is padding-left: 3.5rem;. You can add buttons with any font colour, background, border, shadows or with hover effects all in one line of code. You can add any button you want with any colour or size, and it takes 20 seconds.
 
+View the [Stooge CSS Documentation](https://chrisjwaddell.github.io/Stooge-CSS/index.html) page here.
+
 ## How Stooge CSS works
 There are two parts to the CSS class name (three if you use units other than *rem*). The format is as follows:
 *property-value*
@@ -47,19 +49,21 @@ Just add *-m1*, *-m2*, up to *-m5* to the class name.
 # How to get started
 
 Add this to the &lt;head&gt; of your HTML file:\
-`&lt;link href="https://raw.githubusercontent.com/chrisjwaddell/Stooge-CSS/main/dist/stooge.min.css" rel="stylesheet"&gt;`\
-`&lt;link href="https://raw.githubusercontent.com/chrisjwaddell/Stooge-CSS/main/dist/stooge-responsive.min.css" rel="stylesheet"&gt;`\
-`&lt;link href="https://raw.githubusercontent.com/chrisjwaddell/Stooge-CSS/main/dist/stooge-colors.min.css" rel="stylesheet"&gt;`
+`<link href="https://raw.githubusercontent.com/chrisjwaddell/Stooge-CSS/main/dist/stooge.min.css" rel="stylesheet">`\
+`<link href="https://raw.githubusercontent.com/chrisjwaddell/Stooge-CSS/main/dist/stooge-responsive.min.css" rel="stylesheet">`\
+`<link href="https://raw.githubusercontent.com/chrisjwaddell/Stooge-CSS/main/dist/stooge-colors.min.css" rel="stylesheet">`
 
 ## Table of Contents
-- [Getting Started](https://chrisjwaddell.github.io/Stooge-CSS/#getting-started)
-- [Layout and Position](https://chrisjwaddell.github.io/Stooge-CSS/#layout)
-- [Spacing](https://chrisjwaddell.github.io/Stooge-CSS/#spacing)
-- [Visibility and Box-Model](https://chrisjwaddell.github.io/Stooge-CSS/#visibility)
-- [Text](https://chrisjwaddell.github.io/Stooge-CSS/#text)
-- [Animation](https://chrisjwaddell.github.io/Stooge-CSS/#animation)
-- [Components](https://chrisjwaddell.github.io/Stooge-CSS/#components)
-- [Colors](https://chrisjwaddell.github.io/Stooge-CSS/#colors)
+- [Getting Started](https://chrisjwaddell.github.io/Stooge-CSS/)
+- [Layout and Position](https://chrisjwaddell.github.io/Stooge-CSS/layout-and-position.html)
+- [Spacing](https://chrisjwaddell.github.io/Stooge-CSS/spacing.html)
+- [Visibility and Box-Model](https://chrisjwaddell.github.io/Stooge-CSS/visibility-and-box-model.html)
+- [Text](https://chrisjwaddell.github.io/Stooge-CSS/text.html)
+- [Components](https://chrisjwaddell.github.io/Stooge-CSS/components.html)
+- [Animation](https://chrisjwaddell.github.io/Stooge-CSS/animation.html)
+- [Responsive](https://chrisjwaddell.github.io/Stooge-CSS/responsive.html)
+- [Colors](https://chrisjwaddell.github.io/Stooge-CSS/colors.html)
+- [Purge CSS](https://chrisjwaddell.github.io/Stooge-CSS/purgecss.html)
 
 
 # Documentation

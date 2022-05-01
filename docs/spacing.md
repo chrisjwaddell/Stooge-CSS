@@ -1,5 +1,7 @@
 # Spacing
 
+[See the Spacing documentation webpage](https://chrisjwaddell.github.io/Stooge-CSS/spacing.html)
+
 | Property |Abbrev| Value |Abbrev | Units |
 |----------|--------|-------|--------|------|
 | width  | wi   | auto | au |  |
