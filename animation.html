@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Stooge CSS - Animation</title>
+    <link rel="stylesheet" href="./style/stooge-purged.css">
+    <link rel="stylesheet" href="./style/stooge-responsive-purged.css">
+    <link rel="stylesheet" href="./style/stooge-colors-purged.css">
+    <link rel="stylesheet" href="./style/app.css">
+    <style>
+    </style>
+</head>
+
+<body>
+
+    <header class="po-st t-0 l-0 wi-100-p he-4 op-100 zi-999 bc-red-13 shadow-1">
+        <div class="container he-100-p">
+            <div class="di-fl px-3 py-075 he-100-p jc-sb">
+                <div class="di-fl ai-ce jc-sb">
+                    <div class="fl-1">
+                        <p class="di-ib wi-10 he-25 ma-0 px-1 py-025 br-3 bsw-1 fs-125 font-mono fw-6 bc-blue-14 white
+                            bo-white"> Stooge CSS
+                        </p>
+                        <p id="dev" class="di-ib ma-0 pl-1 fs-125 blue-grey-2 ts-42">Develop fast. CSS in HTML</p>
+                    </div>
+                </div>
+                <div class="fl-1">
+                    <div class="di-fl ai-ce jc-fe pt-025">
+                        <a aria-label="Fork on github" href="https://github.com/chrisjwaddell/Stooge-CSS"
+                            class="di-ib ml-05 hover-rotate-360 tr-tr">
+                            <svg width="32" height="32" viewBox="0 0 16 16" version="1.1">
+                                <circle cx="8" cy="8" r="8" style="fill: #000000;"></circle>
+                                <path style="fill: #ffffff" fill-rule="evenodd"
+                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                                </path>
+                            </svg>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="grid-structure">
+
+        <aside class="pl-2 sans-serif">
+            <nav>
+                <h2 class="mb-05 lh-075"><a href="./intro.html"
+                        class="link lh-125 fs-1125 black no-underline link-visited hover-blue-14 hover-underline">About
+                        Stooge CSS</a>
+                </h2>
+                <ul class="ml-025 my-0 list fw-4 black di-no">
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./intro.html#introduction" class="link black no-underline link-visited hover-blue-14
+                            hover-underline">Introduction</a>
+                    </li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./intro.html#getting-started"
+                            class="link black no-underline link-visited hover-blue-14 hover-underline">Gettting
+                            started</a>
+                    </li>
+                </ul>
+
+                <h2 class="mt-1 mb-05 lh-075 "><a href="./layout-and-position.html"
+                        class="link lh-125 fs-1125 black no-underline link-visited hover-blue-14 hover-underline">Layout
+                        and Position</a>
+                </h2>
+                <ul class="ml-025 my-0 list fw-4 black di-no">
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./layout-and-position.html#display"
+                            class="link black no-underline link-visited hover-blue-14 hover-underline">Display</a>
+                    </li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./layout-and-position.html#position"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Position</a>
+                    </li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./layout-and-position.html#container"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Container</a>
+                    </li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./layout-and-position.html#flex"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Flexbox
+                            and Responsiveness</a>
+                    </li>
+                </ul>
+
+                <h2 class="mt-1 mb-05 lh-075"><a href="./spacing.html" class="link lh-125 fs-1125 black no-underline link-visited hover-blue-14
+                        hover-underline">Spacing</a>
+                </h2>
+                <ul class="ml-025 my-0 list fw-4 black di-no">
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./spacing.html#width"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Width
+                            and Height</a></li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./spacing.html#margin"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Margin, Border and
+                            Padding</a></li>
+                </ul>
+
+                <h2 class="mt-1 mb-05 lh-075"><a href="./visibility-and-box-model.html"
+                        class="link lh-125 fs-1125 black no-underline link-visited hover-blue-14 hover-underline">Visibility
+                        and
+                        Box-Model</a>
+                </h2>
+                <ul class="ml-025 my-0 list fw-4 black di-no">
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./visibility-and-box-model.html#border"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Border, Border-radius
+                            and
+                            Opacity
+                        </a></li>
+                </ul>
+
+                <h2 class="mt-1 mb-05 lh-075"><a href="./text.html"
+                        class="link lh-lh-125 fs-1125 black no-underline link-visited hover-blue-14 hover-underline">Text</a>
+                </h2>
+                <ul class="ml-025 my-0 list fw-4 black di-no">
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./text.html#font-family"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Font Family </a></li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./text.html#text-classes"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Text classes </a></li>
+                </ul>
+
+                <h2 class="mt-1 mb-05 lh-075"><a href="./components.html"
+                        class="link fs-1125 black no-underline link-visited hover-blue-14 hover-underline">Components</a>
+                </h2>
+                <ul class="ml-025 my-0 list fw-4 black di-no">
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./components.html#buttons"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Buttons </a></li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./components.html#button-group"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Button Group</a></li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./components.html#anchor-tags"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Anchor tags</a></li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./components.html#text-fields"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Text fields</a></li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./components.html#image-text"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Image-Text and
+                            Text-Image</a></li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./components.html#card"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Cards</a></li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./components.html#divider-text"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Divider with Text</a>
+                    </li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./components.html#code"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Code</a>
+                    </li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./components.html#keyboard"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Keyboard</a></li>
+                </ul>
+
+
+                <h2 class="mt-1 mb-05 lh-075"><a href="./animation.html"
+                        class="link fs-1125 black no-underline link-visited hover-blue-14 hover-underline">Animation</a>
+                </h2>
+                <ul class="ml-025 my-0 list fw-4 black">
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./animation.html#text-animation"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Text animation </a>
+                    </li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./animation.html#animated-buttons"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Animated buttons and
+                            fields</a></li>
+                </ul>
+
+
+                <h2 class="mt-1 mb-05 lh-075"><a href="./responsive.html"
+                        class="link fs-1125 black no-underline link-visited hover-blue-14 hover-underline">Responsive</a>
+                </h2>
+                <ul class="ml-025 my-0 list fw-4 black di-no">
+                </ul>
+
+                <h2 class="mt-1 mb-05 lh-075"><a href="./colors.html"
+                        class="link fs-1125 black no-underline link-visited hover-blue-14 hover-underline">Colors</a>
+                </h2>
+                <ul class="ml-025 my-0 list fw-4 black di-no">
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./colors.html#red-orange-yellow"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Red Orange Yellow</a>
+                    </li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./colors.html#green-lime"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Green Lime</a></li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./colors.html#teal-cyan-indigo"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Teal Cyan Indigo</a>
+                    </li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./colors.html#pink-blue"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Pink Blue</a></li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./colors.html#grey-white-black"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Grey White Black</a>
+                    </li>
+                </ul>
+
+                <h2 class="mt-1 lh-075"><a href="./purgecss.html"
+                        class="link lh-125 fs-1125 black no-underline link-visited hover-blue-14 hover-underline">Purge
+                        CSS</a>
+                </h2>
+
+            </nav>
+
+            <div class="dropdown-pos">
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <p>Animation</p>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="./intro.html">About Stooge CSS</a>
+                        <a href="./layout-and-position.html">Layout and Position</a>
+                        <a href="./spacing.html">Spacing</a>
+                        <a href="./visibility-and-box-model.html">Visibility and Box-Model</a>
+                        <a href="./text.html">Text</a>
+                        <a href="./components.html">Components</a>
+                        <a href="./animation.html">Animation</a>
+                        <a href="./responsive.html">Responsive</a>
+                        <a href="./colors.html">Colors</a>
+                        <a href="./purgecss.html">Purge CSS</a>
+                    </div>
+                </div>
+            </div>
+
+        </aside>
+
+
+        <main class="wi-100-p">
+            <div class="stoogecss wi-100-p he-14">
+                <div class="container">
+                    <div class="di-fl fd-co">
+                        <div class="mt-225 mt-05-m3">
+                            <h2 class="ta-ce ma-0 px-1 py-025 fs-25 fs-175-m4 ta-ce font-sans fw-6 white">Stooge CSS</h2>
+                        </div>
+                        <div class="fl-1">
+                            <h2 class="ta-ce fs-175 fs-15-m4 lh-15 ts-42 mt-1 px-4-m3 px-15-m4 font-mons orange-4">A powerful, intuitive CSS framework
+                                for fast web development</h2>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <section class="main__section">
+                <h1 class="ta-ce  fs-3 fs-25-m5 calisto blue-15">Stooge CSS Documentation</h1>
+            </section>
+
+            <section class="main__section">
+                <h2 class="ta-ce mt-15 calisto blue-15"><span class="id" id="animation"> &nbsp;
+                    </span>Animation</h2>
+                <div class="container-inner pt-05 pb-0">
+                    <p>The categories of animations are:</p>
+                    <ul>
+                        <li class="fs-125">- Text</li>
+                        <li class="fs-125">- Color</li>
+                        <li class="fs-125">- Box-model</li>
+                        <li class="fs-125">- Transform</li>
+                        <li class="fs-125">- General</li>
+                        <li class="fs-125">- Transition classes</li>
+                    </ul>
+
+                    <p>Animation in the Stooge CSS context refers to the <span class="italic">hover</span> and
+                        <span class="italic">focus</span> (button click) CSS states.
+                    </p>
+
+                    <p><span class="italic">Hover</span> and <span class="italic">focus</span> states can be treated
+                        seperately or can be treated the same together. This is relevant for animation on buttons,
+                        fields, anchor tags and other components which have both <span class="italic">hover</span> and
+                        <span class="italic">focus</span> CSS events.
+                    </p>
+                    <p>The <span class="code fw-5">hover-</span> group of class names are for hover only,
+                        when you hover away, it goes back to normal state.</p>
+                    <p>The <span class="code fw-5">focus-</span> group of class names are for focus only. The focus
+                        state
+                        happens when you use the keyboard to tab into it or click on something, and is lost when you tab
+                        into or click on something else.
+                    </p>
+                    <p>The <span class="code fw-5">hf-</span> (hover and focus) group of class names are hover and focus
+                        combined. When you hover over something, the effect begins, and if you click on it and hover
+                        away, the effect stays, unlike with either state on their own.</p>
+                    <p class="mt-1">Animation on colors must include a transition class. If you do animation on multiple
+                        properties, use the <span class="code fw-5">tr-all</span> class.</p>
+
+
+                    <div class="px-15 pt-05 pb-0 mt-4">
+                        <table class="animation">
+                            <thead>
+                                <tr>
+                                    <td>Animation type</td>
+                                    <td>Property</td>
+                                    <td>Class name</td>
+                                    <td>Example/Code</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Text animation</td>
+                                    <td>font-style</td>
+                                    <td>hover/focus/hf-italic</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Text animation</td>
+                                    <td>font-style</td>
+                                    <td>hover/focus/hf-fs-normal</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Text animation</td>
+                                    <td>font-weight</td>
+                                    <td>hover/focus/hf-fw-1-9</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Text animation</td>
+                                    <td>font-weight</td>
+                                    <td>hover/focus/hf-bold</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Text animation</td>
+                                    <td>text-decoration</td>
+                                    <td>hover/focus/hf-underline</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Text animation</td>
+                                    <td>text-decoration</td>
+                                    <td>hover/focus/hf-no-underline</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Text animation</td>
+                                    <td>text-decoration</td>
+                                    <td>hover/focus/hf-strike</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Text animation</td>
+                                    <td>text-shadow</td>
+                                    <td>hover/focus/hf-ts-11, 12, 21, 22, 31, 32, 33, 41, 42, 43</td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <td>Color animation</td>
+                                    <td>background-color</td>
+                                    <td>hover-bc-(color-ID)</td>
+                                    <td>hover-bc-orange-5</td>
+                                </tr>
+                                <tr>
+                                    <td>Color animation</td>
+                                    <td>border-color</td>
+                                    <td>hover-bo-(color-ID)</td>
+                                    <td>hover-bo-blue-14</td>
+                                </tr>
+                                <tr>
+                                    <td>Color animation</td>
+                                    <td>color</td>
+                                    <td>hover-(color-ID)</td>
+                                    <td>hover-white</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Box-model animation</td>
+                                    <td>outline</td>
+                                    <td>hover/focus/hf-outline</td>
+                                    <td>outline: 1px solid;</td>
+                                </tr>
+                                <tr>
+                                    <td>Box-model animation</td>
+                                    <td>outline</td>
+                                    <td>hover/focus/hf-outline-transparent</td>
+                                    <td>outline: 1px transparent;</td>
+                                </tr>
+                                <tr>
+                                    <td>Box-model animation</td>
+                                    <td>outline</td>
+                                    <td>hover/focus/hf-ou-0</td>
+                                    <td>outline: 1px solid;</td>
+                                </tr>
+                                <tr>
+                                    <td>Box-model animation</td>
+                                    <td>outline</td>
+                                    <td>hover/focus/hf-shadow-1/2/3/4/5</td>
+                                    <td>Shadow disappears on button press(focus), simulates a button pressing down</td>
+                                </tr>
+                                <tr>
+                                    <td>Box-model animation</td>
+                                    <td>box-shadow</td>
+                                    <td>hover-shadow-fw5, 7, 9</td>
+                                    <td>Shadow on hover</td>
+                                </tr>
+
+
+                                <tr>
+                                    <td>Transform animation</td>
+                                    <td>transform: rotate</td>
+                                    <td>hover-rotate-45, 90, 135, 180, 225, 270, 315, 360</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Transform animation</td>
+                                    <td>transform: scale</td>
+                                    <td>hover-grow</td>
+                                    <td>Make an item get bigger</td>
+                                </tr>
+                                <tr>
+                                    <td>Transform animation</td>
+                                    <td>transform: scale</td>
+                                    <td>hover-grow-large</td>
+                                    <td>Make an item get even bigger</td>
+                                </tr>
+
+                                <tr>
+                                    <td>General animation</td>
+                                    <td>Opacity</td>
+                                    <td>hover-fade</td>
+                                    <td>Fade on hover</td>
+                                </tr>
+                                <tr>
+                                    <td>General animation</td>
+                                    <td>Opacity</td>
+                                    <td>hover-glow</td>
+                                    <td>Glow a little more on hover</td>
+                                </tr>
+                                <tr>
+                                    <td>General animation</td>
+                                    <td>Opacity</td>
+                                    <td>hover-blinker</td>
+                                    <td>Flashing effect, flashes on and off, you can do it on hover or always</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Transition class</td>
+                                    <td>transition: background-color</td>
+                                    <td>hover/focus-tr-bc</td>
+                                    <td>transition-property: background-color; transition-duration: .4s;
+                                        transition-timing-function: ease-in-out;</td>
+                                </tr>
+                                <tr>
+                                    <td>Transition class</td>
+                                    <td>transition: border-color</td>
+                                    <td>hover/focus-tr-bo</td>
+                                    <td>transition-property: border-color; transition-duration: .4s;
+                                        transition-timing-function: ease-in-out;</td>
+                                </tr>
+                                <tr>
+                                    <td>Transition class</td>
+                                    <td>transition: color</td>
+                                    <td>hover/focus-tr-co</td>
+                                    <td>transition-property: color; transition-duration: .4s;
+                                        transition-timing-function: ease-in-out;</td>
+                                </tr>
+                                <tr>
+                                    <td>Transition class</td>
+                                    <td>transition: transform</td>
+                                    <td>hover/focus-tr-tr</td>
+                                    <td>transition-property: transform; transition-duration: .4s;
+                                        transition-timing-function: ease-in-out;</td>
+                                </tr>
+                                <tr>
+                                    <td>Transition class</td>
+                                    <td>transition: all</td>
+                                    <td>hover/focus-tr-all</td>
+                                    <td>transition-property: all; transition-duration: .4s;
+                                        transition-timing-function: ease-in-out;</td>
+                                </tr>
+                                <tr>
+                                    <td>Transition class</td>
+                                    <td>transition-duration</td>
+                                    <td>hover/focus-tr-fast</td>
+                                    <td>transition-duration: .3s !important; transition-timing-function: linear
+                                        !important;</td>
+                                </tr>
+                                <tr>
+                                    <td>Transition class</td>
+                                    <td>transition-duration</td>
+                                    <td>hover/focus-tr-medium</td>
+                                    <td>transition-duration: .5s !important; transition-timing-function: linear
+                                        !important;</td>
+                                </tr>
+                                <tr>
+                                    <td>Transition class</td>
+                                    <td>transition-duration</td>
+                                    <td>hover/focus-tr-slow</td>
+                                    <td>transition-duration: 1s !important; transition-timing-function: linear
+                                        !important;</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+
+                        <p class="mt-3">Apply these animation properties to any component or element. Button animations
+                            are shown further down.</p>
+                        <div class="di-fl fd-ce fd-co-m3">
+                            <input type="text"
+                                class="txt my-2 mx-2 px-1 he-3 fs-1 br-025 bc-yellow-2 focus-bw-2 hover-ou-1"
+                                placeholder="Text field, click me">
+                            <a class="di-bl link btn my-2 mx-2 wi-16 he-2 py-025 fs-125 white bc-orange-10 br-025
+                                hover-purple-20 hover-underline hover-blinker tr-all">Hover over this anchor
+                                link</a>
+                        </div>
+
+                        <p>HTML:</p>
+                        <pre class="mt-1 pa-1 br-075 pt-25 po-re wi-100-p"><code>&lt;input type="text" class="txt my-2 mx-2 px-1 he-3 fs-1 br-025 bc-yellow-2 focus-bw-2 hover-ou-1" placeholder="Text field, click me">
+&lt;a class="di-bl link btn my-2 mx-2 wi-16 he-2 py-025 fs-125 white bc-orange-10 br-025 hover-purple-20 hover-underline hover-blinker tr-all"&gt;Hover over this anchor ink&lt;/a&gt;
+</code><button class="btn btn-copy">Copy</button></pre>
+
+
+                        <div class="mt-4"><span class="id" id="text-animation"> &nbsp; </span></div>
+                        <h3>Text animation</h3>
+                        <p>The animation examples below are with text but you can use any element.</p>
+                        <p>A transition class is included by default for text animation. For example, <span
+                                class="code fw-5">hover-strike</span> has <span class="italic">transition:
+                                text-decoration .35s ease-in;</span> in it's class.</p>
+                        <p>hover, focus, and hf classes are available for text property animation. </p>
+
+                        <div class="mt-3">
+                            <p class="di-ib my-025 fs-125 hover-fw-6 hover-strike hover-background">Hover over
+                                this - hover-fw-6 hover-strike hover-background</p>
+                        </div>
+                        <div>
+                            <p class="di-ib my-025 fs-125 hover-ts-12">Hover over this - text shadow - ts-12
+                            </p>
+                        </div>
+                        <div>
+                            <p class="di-ib my-025 fs-125 hover-ts-42">Hover over this - text shadow - ts-42
+                            </p>
+                        </div>
+
+                        <div>
+                            <p class="di-ib my-025 fs-125 hover-bc-yellow-8 hover-background">Hover over this -
+                                hover-bc-yellow-8 hover-background</p>
+                        </div>
+                        <div>
+                            <p class="di-ib my-025 fs-125 hover-bc-purple-3 hover-underline hover-background">Hover
+                                over this - bc-purple-3 hover-underline hover-background</p>
+                        </div>
+                        <div>
+                            <p class="di-ib my-025 fs-125 hover-orange-15">Hover over this -
+                                hover-orange-15</p>
+                        </div>
+                        <div>
+                            <p class="di-ib my-025 fs-125 pointer link">Hover over this - pointer link
+                            </p>
+                        </div>
+
+                        <p class="my-025 fs-125 hover-dim">Hover over this - dim</p>
+                        <div>
+                            <p class="di-ib my-025 fs-125  ta-l hover-grow">Hover over this - grow</p>
+                        </div>
+                        <div>
+                            <p class="di-ib my-025 fs-125 ta-l hover-grow-large">Hover over this - grow-large
+                            </p>
+                        </div>
+                        <div>
+                            <p class="di-ib my-025 fs-125 rotate-180 hover-rotate-0 tr-tr tr-slow">Hover over this -
+                                rotate</p>
+                        </div>
+
+
+                        <p class="mt-05 fs-125"><span class="fw-7">Note: </span>It's best to use these text hover events
+                            in a "display: inline-block" attribute (di-ib).</p>
+                        <p class="mt-2 fs-125 black">HTML:</p>
+                        <pre class="mt-1 pa-1 br-075 pt-25 po-re wi-100-p"><code>&lt;p class="di-ib my-025 fs-125 hover-fw-6 hover-strike hover-background"&gt;Hover over
+    this - hover-fw-6 hover-strike hover-background&lt;/p&gt;
+&lt;p class="di-ib my-025 fs-125 hover-ts-12"&gt;Hover over this - text shadow - ts-12
+&lt;/p&gt;
+&lt;p class="di-ib my-025 fs-125 hover-ts-42"&gt;Hover over this - text shadow - ts-42&lt;/p&gt;
+&lt;p class="di-ib my-025 fs-125 hover-bc-yellow-8 hover-background"&gt;Hover over this -
+    hover-bc-yellow-8 hover-background&lt;/p&gt;
+&lt;p class="di-ib my-025 fs-125 hover-bc-purple-3 hover-underline hover-background"&gt;Hover
+    over this - bc-purple-3 hover-underline hover-background&lt;/p&gt;
+&lt;p class="di-ib my-025 fs-125 hover-orange-15"&gt;Hover over this -
+    hover-orange-15&lt;/p&gt;
+&lt;p class="di-ib my-025 fs-125 pointer link"&gt;Hover over this - pointer link
+&lt;/p&gt;
+&lt;p class="my-025 fs-125 hover-dim"&gt;Hover over this - dim&lt;/p&gt;
+&lt;p class="di-ib my-025 fs-125  ta-l hover-grow"&gt;Hover over this - grow&lt;/p&gt;
+&lt;p class="di-ib my-025 fs-125 ta-l hover-grow-large"&gt;Hover over this - grow-large
+&lt;/p&gt;
+&lt;p class="di-ib my-025 fs-125 rotate-180 hover-rotate-0 tr-tr tr-slow"&gt;Hover over this -
+    rotate&lt;/p&gt;
+&lt;p class="mt-05 fs-125"&gt;&lt;span class="fw-7"&gt;Note: &lt;/span&gt;It's best to use these text hover events
+    in a "display: inline-block" attribute (di-ib).&lt;/p&gt;
+</code><button class="btn btn-copy">Copy</button></pre>
+
+
+                        <div class="mt-25"><span class="id" id="animated-buttons"> &nbsp; </span></div>
+                        <h3 class="mb-4">Animated buttons and fields</h3>
+
+                        <h4 class="my-2 fs-2 ta-ce blue-14">Hover animation effects</h4>
+                        <div class="di-fl fw-wr fd-ro mb-4 fd-co-m3">
+
+                            <div class="wi-100-p fg-1 fh-0 mb-1 py-075 bbw-1 white bc-blue-14">
+                                <p class="ta-ce underline ta-ce-m3 fw-6 underline">Font properties</p>
+                                <p class="ta-ce ma-0 pa-0">A transition class is included by default for text animation.
+                                </p>
+                                <p class="ta-ce pb-1">hover, focus, and hf classes are available for text property
+                                    animation.
+                                </p>
+                            </div>
+
+                            <div class="wi-50-p fg-1 fh-0 bbw-1 mb-1 bo-blue-14 as-fe wi-100-p-m3 bw-0-m3">
+                                <p class="pl-4 blue-14 fw-6 ta-ce-m3 px-0-m3">Button/Field</p>
+                            </div>
+                            <div class="wi-30-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 as-fe wi-100-p-m3 bw-0-m3">
+                                <p class="blue-14 fw-6 px-2 ta-ce-m3 px-0-m3">Property</p>
+                            </div>
+                            <div class="wi-20-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 as-fe wi-100-p-m3 bw-1-m3">
+                                <p class="blue-14 fw-6 ta-ce-m3 px-2">Main animation classes used </p>
+                            </div>
+
+                            <div class="wi-50-p fg-1 fh-0 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <button type="button" class="btn wi-12 he-3 mx-4 py-05 px-1 mb-1 fs-1 fw-6 bsw-3 br-1 black bc-transparent
+                            bo-black hover-underline ma-auto-m3 di-bl-m3">Hover over me</button>
+                            </div>
+                            <div class="wi-30-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <p class="ta-ce-m3 px-1 fs-1 underline bold">Underline</p>
+                                <p class="ta-ce-m3 px-1 fs-1">text-decoration: underline; transition: text-decoration 0.35s ease-in; on hover</p>
+                            </div>
+                            <div class="wi-20-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3">
+                                <p class=" ta-ce-m3 px-2 fs-1">btn hover-underline</p>
+                            </div>
+
+                            <div class="wi-50-p fg-1 fh-0 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <button type="button" class="btn wi-12 he-3 mx-4 py-05 px-1 mb-2 fs-1 fw-4 bsw-3 br-1 black bc-white
+                            hover-fw-8 ma-auto-m3 di-bl-m3">Hover over me</button>
+                            </div>
+                            <div class="wi-30-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <p class="ta-ce-m3 px-1 fs-1 underline bold">Font weight</p>
+                                <p class="ta-ce-m3 px-1 fs-1">font-weight: 800; transition: font-weight 0.35s ease-in;
+                                </p>
+                            </div>
+                            <div class="wi-20-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3">
+                                <p class=" ta-ce-m3 px-2 fs-1">btn hover-fw-8</p>
+                            </div>
+
+                            <div class="wi-50-p fg-1 fh-0 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <button type="button" class="btn wi-12 he-3 mx-4 py-05 px-1 mb-2 fs-1 fw-4 bsw-3 br-1 black bc-white bo-black
+                            hover-bw-6 ma-auto-m3 di-bl-m3">Hover over me</button>
+                            </div>
+                            <div class="wi-30-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <p class="ta-ce-m3 px-1 fs-1 underline bold">Border width</p>
+                                <p class="ta-ce-m3 px-1 fs-1">border-width: 6px; transition: border-width .2s ease-in; -
+                                    on hover</p>
+                            </div>
+                            <div class="wi-20-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3">
+                                <p class=" ta-ce-m3 px-2 fs-1">btn hover-bw-6</p>
+                            </div>
+
+                            <div class="wi-50-p fg-1 fh-0 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <button type="button" class="btn wi-12 he-3 mx-4 py-05 px-1 mb-2 fs-1 fw-4 bsw-3 br-1 black bc-white
+                            hover-outline ma-auto-m3 di-bl-m3">Hover over me</button>
+                            </div>
+                            <div class="wi-30-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <p class="ta-ce-m3 px-1 fs-1 underline bold">Outline</p>
+                                <p class="ta-ce-m3 px-1 fs-1">outline: 1px solid; transition: outline .2s ease-in;</p>
+                            </div>
+                            <div class="wi-20-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3">
+                                <p class=" ta-ce-m3 px-2 fs-1">btn hover-outline</p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="di-fl fw-wr fd-ro mb-4">
+                            <div class="wi-100-p fg-1 fh-0 mb-1 py-075 bbw-1 white bc-blue-14">
+                                <p class="ta-ce underline ta-ce-m3 fw-6 underline">Color properties</p>
+                                <p class="ta-ce ma-0 pa-0">You must specify a transition class for smooth color change.
+                                </p>
+                                <p class="ta-ce pb-1">hover and focus are the same for color property animation.
+                                </p>
+                            </div>
+
+                            <div class="wi-50-p fg-1 fh-0 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <button type="button" class="btn wi-12 he-3 mx-4 py-05 px-1 mb-2 fs-1 fw-6 bsw-3 br-1 white bc-black bo-teal-15
+                            hover-bc-orange-11 tr-bc tr-slow ma-auto-m3 di-bl-m3">Hover over me</button>
+                            </div>
+                            <div class="wi-30-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <p class="ta-ce-m3 px-1 fs-1 underline bold">Background color</p>
+                                <p class="ta-ce-m3 px-1 fs-1">background-color: #fb8c00; transition: background-color
+                                    0.4s ease-in-out; transition-duration: 1s !important; transition-timing-function:
+                                    ease-in !important;</p>
+                            </div>
+                            <div class="wi-20-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3">
+                                <p class=" ta-ce-m3 px-2 fs-1">btn hover-bc-orange-11 tr-bc tr-slow. <span
+                                        class="fw-6">Note</span> - tr-slow added to make transition slow.</p>
+                            </div>
+
+
+                            <div class="wi-50-p fg-1 fh-0 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <button type="button" class="btn wi-12 he-3 mx-4 py-05 px-1 mb-2 fs-1 fw-6 bsw-3 br-1 black bc-white bo-teal-15
+                            hover-red-12 tr-co tr-fast ma-auto-m3 di-bl-m3">Hover over me</button>
+                            </div>
+                            <div class="wi-30-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <p class="ta-ce-m3 px-1 fs-1 underline bold">Font color</p>
+                                <p class="ta-ce-m3 px-1 fs-1">color: #e53935; transition: color 0.4s ease-in-out;</p>
+                            </div>
+                            <div class="wi-20-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3">
+                                <p class=" ta-ce-m3 px-2 fs-1">btn hover-red-12 tr-co tr-fast</p>
+                            </div>
+
+                            <div class="wi-50-p fg-1 fh-0 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <button type="button" class="btn wi-12 he-3 mx-4 py-05 px-1 mb-2 fs-1 fw-6 bsw-3 br-1 black bc-white bo-black
+                            hover-bo-purple-3 tr-bo ma-auto-m3 di-bl-m3">Hover over me</button>
+                            </div>
+                            <div class="wi-30-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <p class="ta-ce-m3 px-1 fs-1 underline bold">Border color</p>
+                                <p class="ta-ce-m3 px-1 fs-1">border-color: #e1bee7; transition: border 0.4s
+                                    ease-in-out;
+                                </p>
+                            </div>
+                            <div class="wi-20-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3">
+                                <p class=" ta-ce-m3 px-2 fs-1">btn hover-bo-purple-3 tr-bo</p>
+                            </div>
+
+                            <div class="wi-50-p fg-1 fh-0 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <button type="button" class="btn wi-12 he-3 mx-4 py-05 px-1 mb-2 fs-1 fw-6 bsw-3 br-1 black bc-white bo-cyan-10
+                            hover-bc-purple-3 hover-orange-7 hover-bc-grey-4 hover-bw-5 tr-all ma-auto-m3 di-bl-m3">Hover over
+                                    me</button>
+                            </div>
+                            <div class="wi-30-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <p class="ta-ce-m3 px-1 fs-1 underline bold">Combined animation effects</p>
+                                <p class="ta-ce-m3 px-1 fs-1"></p>
+                            </div>
+                            <div class="wi-20-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3">
+                                <p class=" ta-ce-m3 px-2 fs-1">btn hover-bc-purple-3 hover-orange-7 hover-bc-grey-4
+                                    hover-bw-5 tr-all</p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="di-fl fw-wr fd-ro mb-4">
+                            <div class="wi-100-p fg-1 fh-0 mb-1 py-075 bbw-1 white bc-blue-14">
+                                <p class="ta-ce underline ta-ce-m3 fw-6 underline">Transform properties</p>
+                                <p class="ta-ce ma-0 pa-0">Special animation classes have transition built in, others eg
+                                    rotate don't.</p>
+                                </p>
+                            </div>
+
+                            <div class="wi-50-p fg-1 fh-0 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <button type="button" class="btn wi-12 he-3 mx-4 py-05 px-1 mb-2 fs-1 fw-6 bsw-3 br-1 black bc-white bo-black
+                            hover-grow-large ma-auto-m3 di-bl-m3">Hover over me</button>
+                            </div>
+                            <div class="wi-30-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <p class="ta-ce-m3 px-1 fs-1 underline bold">Scale</p>
+                                <p class="ta-ce-m3 px-1 fs-1">transform: scale(1.4 ); transition: transform .5s
+                                    ease-out;
+                                </p>
+                            </div>
+                            <div class="wi-20-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3">
+                                <p class=" ta-ce-m3 px-2 fs-1">btn hover-grow-large</p>
+                            </div>
+
+                            <div class="wi-50-p fg-1 fh-0 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <button type="button" class="btn wi-12 he-3 mx-4 py-05 px-1 mb-2 fs-1 fw-6 bsw-3 br-1 black bc-white bo-black
+                            hover-grow ma-auto-m3 di-bl-m3">Hover over me</button>
+                            </div>
+                            <div class="wi-30-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <p class="ta-ce-m3 px-1 fs-1 underline bold">Scale</p>
+                                <p class="ta-ce-m3 px-1 fs-1">transform: scale(1.15); transition: transform .5s
+                                    ease-out;
+                                </p>
+                            </div>
+                            <div class="wi-20-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3">
+                                <p class=" ta-ce-m3 px-2 fs-1">btn hover-grow</p>
+                            </div>
+
+
+                            <div class="wi-50-p fg-1 fh-0 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <button type="button" class="btn wi-12 he-3 mx-4 py-05 px-1 mb-2 fs-1 fw-6 bsw-3 br-1 black bc-white bo-teal-15
+                            rotate-45 hover-rotate-0 tr-tr tr-slow ma-auto-m3 di-bl-m3">Hover over me</button>
+                            </div>
+                            <div class="wi-30-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <p class="ta-ce-m3 px-1 fs-1 underline bold">Rotate</p>
+                                <p class="ta-ce-m3 px-1 fs-1"></p>
+                            </div>
+                            <div class="wi-20-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3">
+                                <p class=" ta-ce-m3 px-2 fs-1">btn rotate-45 hover-rotate-0 tr-tr tr-slow</p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="di-fl fw-wr fd-ro mb-4">
+                            <div class="wi-100-p fg-1 fh-0 mb-1 py-075 bbw-1 white bc-blue-14">
+                                <p class="ta-ce underline ta-ce-m3 fw-6 underline">General properties</p>
+                                <p class="ta-ce ma-0 pa-0">Special animation classes have transition built in.</p>
+                                </p>
+                            </div>
+
+                            <div class="wi-50-p fg-1 fh-0 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <button type="button" class="btn wi-12 he-3 mx-4 py-05 px-1 mb-2 fs-1 bsw-0 br-1 white bc-black
+                            hover-dim ma-auto-m3 di-bl-m3">Hover over me</button>
+                            </div>
+                            <div class="wi-30-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <p class="ta-ce-m3 px-1 fs-1 underline bold">Opacity</p>
+                                <p class="ta-ce-m3 px-1 fs-1">opacity: .5; transition: opacity 0.35s ease-in;
+                                </p>
+                            </div>
+                            <div class="wi-20-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3">
+                                <p class=" ta-ce-m3 px-2 fs-1">btn hover-dim</p>
+                            </div>
+
+                            <div class="wi-50-p fg-1 fh-0 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <button type="button" class="btn wi-12 he-3 mx-4 py-05 px-1 mb-2 fs-1 fw-6 bsw-3 br-1 op-50 white bc-black
+                            hover-glow ma-auto-m3 di-bl-m3">Hover over me</button>
+                            </div>
+                            <div class="wi-30-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <p class="ta-ce-m3 px-1 fs-1 underline bold">Opacity</p>
+                                <p class="ta-ce-m3 px-1 fs-1">opacity: 1; transition: opacity 0.35s ease-in;
+                                </p>
+                            </div>
+                            <div class="wi-20-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3">
+                                <p class=" ta-ce-m3 px-2 fs-1">btn hover-glow</p>
+                            </div>
+
+                        </div>
+
+
+
+                        <h4 class="mt-3 fs-2 ta-ce blue-14">Focus animation effects</h4>
+                        <p>Often, you would want to have the same animation effect for both <span
+                                class="italic">hover</span>
+                            and <span class="italic">focus</span>. You don't want the user to think their click hasn't been done when the button focus is away from the button after
+                            they clicked it. But sometimes you may want the button to change only on click, in this case, instead of using the <span class="italic">hover-</span>
+                            class, use the <span class="italic">focus-</span> class instead.</p>
+
+                        <p class="mt-1">You can have both with the <span class="italic">hf-</span> (hover and focus)
+                            group of class names.
+                            When you hover over the button, the animation effect happens, and when you click it and move
+                            away, the animation effect stays. You get one or the other with the other two groups of
+                            classes.
+                        </p>
+                        <p class="mt-1">Stooge CSS doesn't allow you to distinguish between hover and focus states for
+                            color. But it
+                            does for text properties, transition properties and box model properties..</p>
+
+                        <h5 class="mt-2 fs-125">See the difference between hover, focus and hf (hover and focus)</h5>
+                        <div class="di-fl jc-ce mt-1 fd-co-m3">
+                        </div>
+                        <div class="di-fl jc-ce mt-0 jc-sb fd-co-m3 ai-ce-m3">
+                            <div class="fl-1">
+                                <p class="ta-ce">.hover-</p>
+                                <button type="button" class="mx-au di-bl btn wi-12 he-3 fl-0 py-05 px-1 mb-2 fs-1 fw-4 bsw-1 br-1 ou-0 black bc-white bo-cyan-10
+                                hover-fw-6 hover-underline hover-outline hover-bc-blue-4 tr-all">Hover over
+                                me</button>
+                            </div>
+                            <div class="fl-1">
+                                <p class="ta-ce">.focus-</p>
+                                <button type="button" class="mx-au di-bl btn wi-12 he-3 fl-0 py-05 px-1 mb-2 fs-1 fw-4 bsw-1 br-1 ou-0 black bc-white
+                                bo-cyan-10 focus-fw-6 focus-underline focus-outline hover-bc-blue-4 tr-all">Click
+                                me</button>
+                            </div>
+                            <div class="fl-1">
+                                <p class="ta-ce">.hr-</p>
+                            <button type="button" class="mx-au di-bl btn wi-12 he-3 fl-0 py-05 px-1 mb-2 fs-1 fw-4 bsw-1 br-1 ou-0 black bc-white bo-cyan-10
+                            hf-fw-6 hf-underline hf-outline hover-bc-blue-4 tr-all">Hover and Click</button>
+                            </div>
+                        </div>
+                        <p class="ta-ce">Comparing hover, focus and hf, color effects for hover and focus are the same
+                            but font and other types of effects are different for each state. In this three button
+                            example,
+                            for <span class="italic">.focus</span>, the text is bold only when you click on it, not when
+                            you hover. For <span class="italic">.hr</span>, the text is bold on hover and click, not on
+                            hover or click, but both hover and click.</p>
+
+
+                        <div class="di-fl fw-wr fd-ro mt-4 mb-4 fd-co-me">
+                            <div class="wi-50-p fg-1 fh-0 bbw-1 mb-1 bo-blue-14 as-fe wi-100-p-m3 bw-0-m3">
+                                <p class="pl-4 blue-14 fw-6 ta-ce-m3 px-0-m3">Button/Field</p>
+                            </div>
+                            <div class="wi-30-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 as-fe wi-100-p-m3 bw-0-m3">
+                                <p class="blue-14 fw-6 px-2 ta-ce-m3 px-0-m3">Property</p>
+                            </div>
+                            <div class="wi-20-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 as-fe wi-100-p-m3 bw-1-m3">
+                                <p class="blue-14 fw-6 ta-ce-m3 px-2">Main animation classes used </p>
+                            </div>
+
+                            <div class="wi-50-p fg-1 fh-0 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <button type="button" class="btn wi-12 he-3 mx-4 py-05 px-1 mb-1 fs-1 fw-4 bsw-1 br-1 black bc-transparent
+                            bo-black focus-underline ma-auto-m3 di-bl-m3">Click me</button>
+                            </div>
+                            <div class="wi-30-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <p class="ta-ce-m3 px-1 fs-1 underline">Underline</p>
+                                <p class="ta-ce-m3 px-1 fs-1">text-decoration: underline; transition: text-decoration
+                                    0.35s ease-in; on hover</p>
+                            </div>
+                            <div class="wi-20-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3">
+                                <p class=" ta-ce-m3 px-2 fs-1">btn focus-fw-8</p>
+                            </div>
+
+                            <div class="wi-50-p fg-1 fh-0 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <button type="button" class="btn wi-12 he-3 mx-4 py-05 px-1 mb-2 fs-1 fw-4 bsw-3 br-1 black bc-white
+                            focus-fw-8 ma-auto-m3 di-bl-m3">Click me</button>
+                            </div>
+                            <div class="wi-30-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <p class="ta-ce-m3 px-1 fs-1 underline">Font weight</p>
+                                <p class="ta-ce-m3 px-1 fs-1">font-weight: 800; transition: font-weight 0.35s ease-in;
+                                </p>
+                            </div>
+                            <div class="wi-20-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3">
+                                <p class=" ta-ce-m3 px-2 fs-1">btn focus-fw-8</p>
+                            </div>
+
+                            <div class="wi-50-p fg-1 fh-0 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <button type="button" class="btn wi-12 he-3 mx-4 py-05 px-1 mb-2 fs-1 fw-4 bsw-3 br-1 black bc-white bo-black
+                            hf-bw-6 ma-auto-m3 di-bl-m3">Hover & Click</button>
+                            </div>
+                            <div class="wi-30-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <p class="ta-ce-m3 px-1 fs-1 underline">Border width</p>
+                                <p class="ta-ce-m3 px-1 fs-1">border-width: 6px; transition: border-width .2s ease-in; -
+                                    on hover
+                                </p>
+                            </div>
+                            <div class="wi-20-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3">
+                                <p class=" ta-ce-m3 px-2 fs-1">btn hf-bw-6</p>
+                            </div>
+
+                            <div class="wi-50-p fg-1 fh-0 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <button type="button"
+                                    class="btn wi-12 he-3 mx-4 py-05 px-1 mb-2 fs-1 fw-4 bsw-3 br-1 black bc-white hf-outline ma-auto-m3 di-bl-m3">Hover
+                                    & Click</button>
+                            </div>
+                            <div class="wi-30-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <p class="ta-ce-m3 px-1 fs-1 underline">Outline</p>
+                                <p class="ta-ce-m3 px-1 fs-1">outline: 1px solid; transition: outline .2s ease-in;</p>
+                            </div>
+                            <div class="wi-20-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3">
+                                <p class=" ta-ce-m3 px-2 fs-1">btn hf-outline</p>
+                            </div>
+
+
+                            <div class="wi-50-p fg-1 fh-0 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <button type="button" class="btn wi-12 he-3 mx-4 py-05 px-1 mb-2 fs-1 bsw-0 br-1 white bc-blue-11
+                            focus-dim ma-auto-m3 di-bl-m3">Click me</button>
+                            </div>
+                            <div class="wi-30-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <p class="ta-ce-m3 px-1 fs-1 underline">Opacity</p>
+                                <p class="ta-ce-m3 px-1 fs-1">opacity: .5; transition: opacity 0.15s ease-in;</p>
+                            </div>
+                            <div class="wi-20-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3">
+                                <p class=" ta-ce-m3 px-2 fs-1">btn focus-dim</p>
+                            </div>
+
+                            <div class="wi-50-p fg-1 fh-0 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <button type="button" class="btn wi-12 he-3 mx-4 py-05 px-1 mb-2 fs-1 fw-6 bsw-0 br-1 op-70 white bc-green-14
+                            hf-glow ma-auto-m3 di-bl-m3">hf-glow</button>
+                            </div>
+                            <div class="wi-30-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <p class="ta-ce-m3 px-1 fs-1 underline">Opacity</p>
+                                <p class="ta-ce-m3 px-1 fs-1"></p>
+                            </div>
+                            <div class="wi-20-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3">
+                                <p class=" ta-ce-m3 px-2 fs-1">btn hr-glow</p>
+                            </div>
+
+                            <div class="wi-50-p fg-1 fh-0 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <button type="button" class="btn wi-12 he-3 mx-4 py-05 px-1 mb-2 fs-1 fw-6 bsw-3 br-1 black bc-white bo-black
+                            hf-grow-large ma-auto-m3 di-bl-m3">hf-grow-large</button>
+                            </div>
+                            <div class="wi-30-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <p class="ta-ce-m3 px-1 fs-1 underline">Scale</p>
+                                <p class="ta-ce-m3 px-1 fs-1"></p>
+                            </div>
+                            <div class="wi-20-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3">
+                                <p class=" ta-ce-m3 px-2 fs-1">btn hr-grow-large</p>
+                            </div>
+
+
+                            <div class="wi-50-p fg-1 fh-0 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <button type="button"
+                                    class="btn wi-12 he-3 mx-4 py-05 px-1 mb-2 fs-1 fw-4 bsw-1 br-1 ou-0 black bc-white bo-cyan-10
+                            hover-outline hover-bc-blue-4 focus-bw-5 focus-underline focus-fw-6 hover-tr-all hover-tr-fast focus-tr-all focus-tr-slow ma-auto-m3 di-bl-m3">Hover
+                                    and Click</button>
+                            </div>
+                            <div class="wi-30-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3 bw-0-m3">
+                                <p class="ta-ce-m3 px-1 fs-1 underline">Combined effects</p>
+                                <p class="ta-ce-m3 px-1 fs-1">Hover-outline, blue background (fast transition)</p>
+                                <p class="ta-ce-m3 px-1 fs-1">Focus-border, underline, bold (slow transition)</p>
+                            </div>
+                            <div class="wi-20-p fg-1 fh-1 bbw-1 mb-1 bo-blue-14 wi-100-p-m3">
+                                <p class=" ta-ce-m3 px-2 fs-1">hover-outline hover-bc-blue-4 focus-bw-6
+                                    focus-underline focus-fw-6 hover-tr-all hover-tr-fast focus-tr-all focus-tr-slow</p>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+    </div> <!-- grid-structure -->
+
+    <footer class="he-10 zi-5 po-re wi-100-p bc-red-13">
+        <div class="container px-7 py-1 he-100-p">
+            <div class="footer__flex di-fl">
+                <div class="fl-3 fl-2-m4 pl-2 pl-05-m4 sans-serif white">
+                    <div class="di-fl fd-co jc-ce">
+                        <p class="footer__logo di-ib wi-10 he-25 ma-0 px-1 py-025 ta-ce br-3 bsw-1 fs-125 font-mono fw-6 bc-blue-14 white
+                            bo-white">Stooge CSS</p>
+                        <p class="footer_cont mt-05 wi-16 fs-0875 lh-125 mb-05">We want to make Stooge CSS even greater, so plesae <a href="https://github.com/chrisjwaddell/Stooge-CSS/blob/main/CONTRIBUTIONS.md" class="link white underline link-visited">contribute</a>.</p>
+                        <p class="footer_licence fs-0875 lh-125">Licensed under MIT</p>
+                    </div>
+                </div>
+
+
+                <div class="fl-2 pr-4">
+                    <p class="mt-05 ta-ce white fs-15 fs-125-m4 arial mb-075 fw-6">Contact me on social media</p>
+                    <div class="di-fl jc-ce">
+                        <div class="di-fl fd-ro">
+                            <a aria-label="Fork on github" href="https://github.com/chrisjwaddell/Stooge-CSS"
+                                class="di-ib mr-35 hover-rotate-360 tr-tr">
+                                <svg width="45" height="45" viewBox="0 0 16 16" version="1.1">
+                                    <circle cx="8" cy="8" r="8" style="fill: #000000;"></circle>
+                                    <path style="fill: #ffffff" fill-rule="evenodd"
+                                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                                    </path>
+                                </svg>
+                            </a>
+
+                            <a aria-label="Twitter" href="https://twitter.com/waddellchrisj"
+                                class="di-ib hover-rotate-360 tr-tr">
+                                <svg version="1.1" width="45" height="45" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 400"
+                                    xml:space="preserve">
+                                    <style type="text/css">
+                                        .st0 {
+                                            fill: #1B9DF0;
+                                        }
+
+                                        .st1 {
+                                            fill: #FFFFFF;
+                                        }
+                                    </style>
+                                    <g>
+                                        <circle class="st0" cx="200" cy="200" r="200" />
+                                    </g>
+                                    <g>
+                                        <path class="st1" d="M163.4,305.5c88.7,0,137.2-73.5,137.2-137.2c0-2.1,0-4.2-0.1-6.2c9.4-6.8,17.6-15.3,24.1-25
+    c-8.6,3.8-17.9,6.4-27.7,7.6c10-6,17.6-15.4,21.2-26.7c-9.3,5.5-19.6,9.5-30.6,11.7c-8.8-9.4-21.3-15.2-35.2-15.2
+    c-26.6,0-48.2,21.6-48.2,48.2c0,3.8,0.4,7.5,1.3,11c-40.1-2-75.6-21.2-99.4-50.4c-4.1,7.1-6.5,15.4-6.5,24.2
+    c0,16.7,8.5,31.5,21.5,40.1c-7.9-0.2-15.3-2.4-21.8-6c0,0.2,0,0.4,0,0.6c0,23.4,16.6,42.8,38.7,47.3c-4,1.1-8.3,1.7-12.7,1.7
+    c-3.1,0-6.1-0.3-9.1-0.9c6.1,19.2,23.9,33.1,45,33.5c-16.5,12.9-37.3,20.6-59.9,20.6c-3.9,0-7.7-0.2-11.5-0.7
+    C110.8,297.5,136.2,305.5,163.4,305.5" />
+                                    </g>
+                                </svg>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+<script src="./scripts/dom.js"></script>
+
+</html>
