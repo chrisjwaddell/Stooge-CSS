@@ -1,0 +1,358 @@
+/* app.css is specific to this project */
+
+.grid-structure {
+    display: grid;
+    /* grid-gap: 10px; */
+    /* padding: 70px 0rem 0rem 0rem; */
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: 1fr auto;
+}
+
+
+aside {
+    top: 100px;
+    width: 15.5rem;
+}
+
+aside nav {
+    position: sticky;
+    top: 100px;
+    left: 0;
+    height: calc(95vh - 4rem);
+    padding: 0.5rem;
+    overflow-y: auto;
+    font-size: 1.5rem;
+}
+
+main {
+    /* grid-area: main;
+    width: auto; */
+    padding-right: 3rem;
+    background-color: #f5f5f5;
+    min-height: 850px;
+}
+
+.stoogecss {
+    /* grid-area: intro; */
+    background-image: linear-gradient(to bottom right, #2979ff, #7949cc);
+}
+
+.stoogecss p {
+    margin: 0;
+}
+
+footer {
+    grid-area: footer;
+}
+
+footer p {
+    margin: 0
+}
+
+.main__section {
+    position: relative;
+    margin: 2rem 1rem 2rem 1rem;
+    padding: 0.25rem 0.25rem 0rem 0.25rem;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, .15);
+}
+
+.main__section .subtitle {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #2962ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main__section h2 {
+    margin-bottom: 0rem;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    font-size: 1.75rem;
+    border-width: 0px;
+    border-bottom-color: rgba(0, 0, 0, .1);
+    border-style: solid;
+}
+
+
+/* default margin-bottom is 1.25rem, take that off */
+.main__section p {
+    margin-bottom: 0rem;
+}
+
+
+.main__section-colours p {
+    margin-top: 0rem;
+    margin-bottom: 0.25rem;
+    font-size: 0.75rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.main__section-colours h3 {
+    margin-top: 4rem;
+}
+
+.dropdown-pos {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: calc(50% - 150px);
+}
+
+.dropbtn {
+  /* position: relative; */
+  background-color: #fff;
+  margin: 0;
+  color: #fff;
+  width: 300px;
+  height: 30px;
+  font-size: 16px;
+  border: 1px solid #2979ff;
+}
+
+.dropbtn p {
+    color: #000;
+}
+
+.dropbtn::after {
+    content: '';
+    position: relative;
+    display: block;
+    left: 100%;
+    /* top: -100%; */
+    padding: 0;
+    top: -50px;
+    width: 20px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #2979ff;
+    background-image: url("data:image/svg+xml,%3Csvg version='1.1' width='20' height='20' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 100 100' xml:space='preserve'%3E%3Cpath d='M10,40 50,90 90,40Z' fill='%232979ff' /%3E%3C/svg%3E");
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 300px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+
+
+@media screen and (max-width:770px) {
+  .grid-structure {
+    display: block;
+  }
+  .main__section {
+      width: 100%;
+      margin: 0;
+  }
+  main {
+      padding: 0;
+  }
+  nav {
+      display: none;
+  }
+  aside {
+      position: relative;
+      height: 100px;
+      width: 100%;
+      top: 0;
+  }
+  .dropdown-pos {
+      display: block;
+  }
+}
+
+@media screen and (max-width:650px) {
+    #dev {
+        display: none;
+    }
+    footer {
+        height: 270px !important;
+    }
+    .footer__flex {
+        flex-direction: column;
+    }
+    .footer__logo {
+        margin: 0 auto;
+    }
+    .footer_cont {
+        margin: 10px auto;
+    }
+    .footer_licence {
+        text-align: center;
+    }
+    footer div:nth-of-type(2) {
+        padding: 0;
+    }
+
+}
+
+/* To show section at the top, below the header */
+.id {
+    margin-top: -70px;
+    /* Size of fixed header */
+    padding-bottom: 70px;
+    display: block;
+}
+
+
+.main__section table {
+    width: 100%;
+    font-size: 14px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #5992ff;
+}
+
+.main__section thead td {
+    background-color: #2962ff;
+    background-color: #5992ff;
+    /* text-align: center; */
+}
+
+.main__section thead td {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+table tbody td:nth-of-type(2) {
+    background: #00e676;
+}
+
+table tbody td:nth-of-type(4) {
+    background: #00e676;
+}
+
+.main__section table.animation tbody td:nth-of-type(2),
+.main__section table.animation tbody td:nth-of-type(4),
+.main__section table.components tbody td:nth-of-type(2) {
+    background: #ffffff;
+}
+
+.main__section table.animation tbody td:nth-of-type(3) {
+    background: #00e676;
+}
+
+table tr td.special-case {
+    background-color: #f57c00;
+}
+
+.main__section table tr td.a {
+    background-color: #ffff00;
+}
+
+.main__section table.components td:nth-of-type(1) {
+    width: 50%;
+}
+
+.main__section table.components td:nth-of-type(2) {
+    width: 25%;
+}
+
+.main__section table.components td:nth-of-type(3) {
+    width: 25%;
+}
+
+.main__section-colours h3 {
+    margin-top: 20px;
+}
+
+.main__section td,
+.main__section th {
+    font-size: 18px;
+    font-weight: 400;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 2px 8px;
+}
+
+.btn-copy {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    height: 1.5rem;
+    width: 3.5rem;
+    background-color: #ffffff;
+    color: #2979ff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    border-width: 0px;
+}
+
+.btn-copy:hover {
+    background-color: #2979ff;
+    color: #fff;
+}
+
+
+@media screen and (min-width:1800px) {
+  .container-inner {
+    max-width: 950px;
+  }
+}
+@media screen and (max-width:1799px) {
+  .container-inner {
+    max-width: 900px;
+  }
+}
+@media screen and (max-width:1199px) {
+  .container-inner {
+    max-width: 875px;
+  }
+}
+@media screen and (max-width:899px) {
+  .container-inner {
+    max-width: 800px;
+  }
+  code {
+      font-size: 0.8rem;
+  }
+}
+@media screen and (max-width:599px) {
+  .container-inner {
+    max-width: 560px;
+  }
+}
+@media screen and (max-width:499px) {
+  .main__section td, .main__section tr {
+      font-size: 0.8rem;
+  }
+  table {
+      margin-left: -30px;
+  }
+}
+
+.container-inner {
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}

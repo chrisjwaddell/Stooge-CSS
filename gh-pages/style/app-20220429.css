@@ -1,0 +1,192 @@
+/* app.css is specific to this project */
+
+.grid-structure {
+    display: grid;
+    grid-gap: 10px;
+    padding: 70px 0rem 0rem 0rem;
+    grid-template-columns: 225px auto auto;
+    grid-template-areas:
+        "header header header"
+        "sidebar intro intro"
+        "sidebar main main"
+        "sidebar main main"
+        "sidebar footer footer";
+}
+
+header {
+    grid-area: header;
+}
+
+aside {
+    grid-area: sidebar;
+    top: 100px;
+}
+
+main {
+    grid-area: main;
+    width: auto;
+    padding-right: 3rem;
+    background-color: #f5f5f5;
+    min-height: 850px;
+}
+
+.stoogecss {
+    grid-area: intro;
+    background-image: linear-gradient(to bottom right, #2979ff, #7949cc);
+}
+
+
+footer {
+    grid-area: footer;
+}
+
+
+.main__section {
+    position: relative;
+    margin: 2rem 1rem 2rem 1rem;
+    padding: 0.25rem 0.25rem 0rem 0.25rem;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, .15);
+}
+
+.main__section .subtitle {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #2962ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main__section h2 {
+    margin-bottom: 0rem;
+    padding-bottom: 50px;
+    font-family: sans-serif;
+    font-size: 1.75rem;
+    border-width: 0px;
+    border-bottom-color: rgba(0, 0, 0, .1);
+    border-style: solid;
+}
+
+.btn.main__section__btn {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: auto;
+    height: 30px;
+    padding: 4px 8px;
+    z-index: 100;
+    background-color: #eeeeee;
+    border-radius: 12px;
+    border: 1px solid #2962ff;
+    color: #2962ff;
+    font-size: 14px;
+}
+
+/* default margin-bottom is 1.25rem, take that off */
+.main__section p {
+    margin-bottom: 0rem;
+}
+
+
+.main__section-colours p {
+    margin-top: 0rem;
+    margin-bottom: 0.25rem;
+    font-size: 0.75rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.main__section-colours h3 {
+    margin-top: 4rem;
+}
+
+
+/* To show section at the top, below the header */
+.id {
+    margin-top: -70px;
+    /* Size of fixed header */
+    padding-bottom: 70px;
+    display: block;
+}
+
+
+.main__section table {
+    width: 100%;
+    font-size: 14px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #5992ff;
+}
+
+.main__section thead td {
+    background-color: #2962ff;
+    background-color: #5992ff;
+    /* text-align: center; */
+}
+
+.main__section thead td {
+    font-weight: 600;
+    color: #ffffff;
+}
+
+table tbody td:nth-of-type(2) {
+    background: #00e676;
+}
+
+table tbody td:nth-of-type(4) {
+    background: #00e676;
+}
+
+.main__section table.animation tbody td:nth-of-type(2),
+.main__section table.animation tbody td:nth-of-type(4),
+.main__section table.components tbody td:nth-of-type(2) {
+    background: #ffffff;
+}
+
+.main__section table.animation tbody td:nth-of-type(3) {
+    background: #00e676;
+}
+
+table tr td.special-case {
+    background-color: #f57c00;
+}
+
+.main__section table tr td.a {
+    background-color: #ffff00;
+}
+
+.main__section table.components td:nth-of-type(1) {
+    width: 50%;
+}
+
+.main__section table.components td:nth-of-type(2) {
+    width: 50%;
+}
+
+
+.main__section td,
+.main__section th {
+    font-size: 18px;
+    font-weight: 400;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 2px 8px;
+}
+
+.btn-copy {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    height: 1.5rem;
+    width: 3.5rem;
+    background-color: #ffffff;
+    color: #2979ff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    border-width: 0px;
+}
+
+.btn-copy:hover {
+    background-color: #2979ff;
+    color: #fff;
+}

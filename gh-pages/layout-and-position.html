@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Stooge CSS - Layout and Position</title>
+    <link rel="stylesheet" href="./style/stooge-purged.css">
+    <link rel="stylesheet" href="./style/stooge-responsive-purged.css">
+    <link rel="stylesheet" href="./style/stooge-colors-purged.css">
+    <link rel="stylesheet" href="./style/app.css">
+    <style>
+    </style>
+</head>
+
+<body>
+
+    <header class="po-st t-0 l-0 wi-100-p he-4 op-100 zi-999 bc-red-13 shadow-1">
+        <div class="container  he-100-p">
+            <div class="di-fl px-3 px-1-m5 py-075 he-100-p jc-sb">
+                <div class="di-fl ai-ce jc-sb">
+                    <div class="fl-1">
+                        <p class="di-ib wi-10 he-25 ma-0 px-1 py-025 br-3 bsw-1 fs-125 font-mono fw-6 bc-blue-14 white
+                            bo-white">Stooge CSS</p>
+                        <p  id="dev"class="di-ib ma-0 pl-1 fs-125 blue-grey-2 ts-42">Develop fast. CSS in HTML</p>
+                    </div>
+                </div>
+                <div class="fl-1">
+                    <div class="di-fl ai-ce jc-fe pt-025">
+                        <a aria-label="Fork on github" href="https://github.com/chrisjwaddell/Stooge-CSS"
+                            class="di-ib ml-05 hover-rotate-360 tr-tr">
+                            <svg width="32" height="32" viewBox="0 0 16 16" version="1.1">
+                                <circle cx="8" cy="8" r="8" style="fill: #000000;"></circle>
+                                <path style="fill: #ffffff" fill-rule="evenodd"
+                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                                </path>
+                            </svg>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="grid-structure">
+
+        <aside class="pl-2 sans-serif">
+            <nav>
+                <h2 class="mb-05 lh-075"><a href="./intro.html"
+                        class="link lh-125 fs-1125 black no-underline link-visited hover-blue-14 hover-underline">About
+                        Stooge CSS</a>
+                </h2>
+                <ul class="ml-025 my-0 list fw-4 black di-no">
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./intro.html#introduction" class="link black no-underline link-visited hover-blue-14
+                            hover-underline">Introduction</a>
+                    </li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./intro.html#getting-started"
+                            class="link black no-underline link-visited hover-blue-14 hover-underline">Gettting
+                            started</a>
+                    </li>
+                </ul>
+
+                <h2 class="mt-1 mb-05 lh-075 "><a href="./layout-and-position.html"
+                        class="link lh-125 fs-1125 black no-underline link-visited hover-blue-14 hover-underline">Layout
+                        and Position</a>
+                </h2>
+                <ul class="ml-025 my-0 list fw-4 black">
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./layout-and-position.html#display"
+                            class="link black no-underline link-visited hover-blue-14 hover-underline">Display</a>
+                    </li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./layout-and-position.html#position"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Position</a>
+                    </li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./layout-and-position.html#container"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Container</a>
+                    </li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./layout-and-position.html#flex"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Flexbox
+                            and Responsiveness</a>
+                    </li>
+                </ul>
+
+                <h2 class="mt-1 mb-05 lh-075"><a href="./spacing.html" class="link lh-125 fs-1125 black no-underline link-visited hover-blue-14
+                        hover-underline">Spacing</a>
+                </h2>
+                <ul class="ml-025 my-0 list fw-4 black di-no">
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./spacing.html#width"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Width
+                            and Height</a></li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./spacing.html#margin"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Margin, Border and
+                            Padding</a></li>
+                </ul>
+
+                <h2 class="mt-1 mb-05 lh-075"><a href="./visibility-and-box-model.html"
+                        class="link lh-125 fs-1125 black no-underline link-visited hover-blue-14 hover-underline">Visibility
+                        and
+                        Box-Model</a>
+                </h2>
+                <ul class="ml-025 my-0 list fw-4 black di-no">
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./visibility-and-box-model.html#border"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Border, Border-radius
+                            and
+                            Opacity
+                        </a></li>
+                </ul>
+
+                <h2 class="mt-1 mb-05 lh-075"><a href="./text.html"
+                        class="link lh-lh-125 fs-1125 black no-underline link-visited hover-blue-14 hover-underline">Text</a>
+                </h2>
+                <ul class="ml-025 my-0 list fw-4 black di-no">
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./text.html#font-family"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Font Family </a></li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./text.html#text-classes"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Text classes </a></li>
+                </ul>
+
+                <h2 class="mt-1 mb-05 lh-075"><a href="./components.html"
+                        class="link fs-1125 black no-underline link-visited hover-blue-14 hover-underline">Components</a>
+                </h2>
+                <ul class="ml-025 my-0 list fw-4 black di-no">
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./components.html#buttons"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Buttons </a></li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./components.html#button-group"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Button Group</a></li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./components.html#anchor-tags"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Anchor tags</a></li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./components.html#text-fields"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Text fields</a></li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./components.html#image-text"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Image-Text and
+                            Text-Image</a></li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./components.html#card"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Cards</a></li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./components.html#divider-text"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Divider with Text</a>
+                    </li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./components.html#code"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Code</a>
+                    </li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./components.html#keyboard"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Keyboard</a></li>
+                </ul>
+
+
+                <h2 class="mt-1 mb-05 lh-075"><a href="./animation.html"
+                        class="link fs-1125 black no-underline link-visited hover-blue-14 hover-underline">Animation</a>
+                </h2>
+                <ul class="ml-025 my-0 list fw-4 black di-no">
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./animation.html#text-animation"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Text animation </a>
+                    </li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./animation.html#animated-buttons"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Animated buttons and
+                            fields</a></li>
+                </ul>
+
+
+                <h2 class="mt-1 mb-05 lh-075"><a href="./responsive.html"
+                        class="link fs-1125 black no-underline link-visited hover-blue-14 hover-underline">Responsive</a>
+                </h2>
+                <ul class="ml-025 my-0 list fw-4 black di-no">
+                </ul>
+
+                <h2 class="mt-1 mb-05 lh-075"><a href="./colors.html"
+                        class="link fs-1125 black no-underline link-visited hover-blue-14 hover-underline">Colors</a>
+                </h2>
+                <ul class="ml-025 my-0 list fw-4 black di-no">
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./colors.html#red-orange-yellow"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Red Orange Yellow</a>
+                    </li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./colors.html#green-lime"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Green Lime</a></li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./colors.html#teal-cyan-indigo"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Teal Cyan Indigo</a>
+                    </li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./colors.html#pink-blue"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Pink Blue</a></li>
+                    <li class="pa-05 br-05 hover-bc-grey-5"><a href="./colors.html#grey-white-black"
+                            class="link no-underline link-visited hover-blue-14 hover-underline">Grey White Black</a>
+                    </li>
+                </ul>
+
+                <h2 class="mt-1 lh-075"><a href="./purgecss.html"
+                        class="link lh-125 fs-1125 black no-underline link-visited hover-blue-14 hover-underline">Purge
+                        CSS</a>
+                </h2>
+
+            </nav>
+
+            <div class="dropdown-pos">
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        <p>Layout and Position</p>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="./intro.html">About Stooge CSS</a>
+                        <a href="./layout-and-position.html">Layout and Position</a>
+                        <a href="./spacing.html">Spacing</a>
+                        <a href="./visibility-and-box-model.html">Visibility and Box-Model</a>
+                        <a href="./text.html">Text</a>
+                        <a href="./components.html">Components</a>
+                        <a href="./animation.html">Animation</a>
+                        <a href="./responsive.html">Responsive</a>
+                        <a href="./colors.html">Colors</a>
+                        <a href="./purgecss.html">Purge CSS</a>
+                    </div>
+                </div>
+            </div>
+
+        </aside>
+
+
+        <main class="wi-100-p">
+            <div class="stoogecss wi-100-p he-14">
+                <div class="container">
+                    <div class="di-fl fd-co">
+                        <div class="mt-225 mt-05-m3">
+                            <h2 class="ta-ce ma-0 px-1 py-025 fs-25 fs-175-m4 ta-ce font-sans fw-6 white">Stooge CSS</h2>
+                        </div>
+                        <div class="fl-1">
+                            <h2 class="ta-ce fs-175 fs-15-m4 lh-15 ts-42 mt-1 px-4-m3 px-15-m4 font-mons orange-4">A powerful, intuitive CSS framework
+                                for fast web development</h2>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <section class="main__section">
+                <h1 class="ta-ce  fs-3 fs-25-m5 calisto blue-15">Stooge CSS Documentation</h1>
+            </section>
+
+            <section class="main__section">
+                <h2 class="ta-ce mt-15 calisto blue-15"><span class="id" id="layout"> &nbsp; </span>Layout and Position
+                </h2>
+                <div class="container-inner pt-05  pb-4">
+
+                    <div><span class="id" id="display"> &nbsp; </span></div>
+                    <h3>Display</h3>
+
+                    <p>Use the green columns (second and fourth columns) to get the property and
+                        value you want eg <span class="italic">di-fl</span>. Seperate it by a '-' dash.</p>
+                    <table class="mt-05">
+                        <thead>
+                            <tr>
+                                <td class="wi-20-p">Property</td>
+                                <td class="wi-10-p">Abbrev</td>
+                                <td class="wi-50-p">Value</td>
+                                <td class="wi-10-p">Abbrev</td>
+                                <td class="wi-10-p">Units</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>display</td>
+                                <td>di</td>
+                                <td>none</td>
+                                <td>no</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>display</td>
+                                <td>di</td>
+                                <td>inline</td>
+                                <td>in</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>display</td>
+                                <td>di</td>
+                                <td>block</td>
+                                <td>bl</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>display</td>
+                                <td>di</td>
+                                <td>inline-block</td>
+                                <td>ib</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>display</td>
+                                <td>di</td>
+                                <td>inline-table</td>
+                                <td>it</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>display</td>
+                                <td>di</td>
+                                <td>table</td>
+                                <td>ta</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>display</td>
+                                <td>di</td>
+                                <td>table-cell</td>
+                                <td>tc</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>display</td>
+                                <td>di</td>
+                                <td>table-row</td>
+                                <td>tr</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>display</td>
+                                <td>di</td>
+                                <td>table-row-group</td>
+                                <td>rg</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>display</td>
+                                <td>di</td>
+                                <td>table-column</td>
+                                <td>to</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>display</td>
+                                <td>di</td>
+                                <td>table-column-group</td>
+                                <td>cg</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>display</td>
+                                <td>di</td>
+                                <td>flex</td>
+                                <td>fl</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>display</td>
+                                <td>di</td>
+                                <td>inline-flex</td>
+                                <td>if</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+                    <div class="mt-3"><span class="id" id="position"> &nbsp; </span></div>
+                    <h3>Position</h3>
+
+                    <p>Use the green columns (second and fourth columns) to get the property and
+                        value you want eg <span class="italic">zt-10</span>. Seperate it by a '-' dash.</p>
+
+                    <table class="mt-05 mb-1">
+                        <thead>
+                            <tr>
+                                <td class="wi-20-p">Property</td>
+                                <td class="wi-10-p">Abbrev</td>
+                                <td class="wi-50-p">Value</td>
+                                <td class="wi-10-p">Abbrev</td>
+                                <td class="wi-10-p">Units</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>position</td>
+                                <td>po</td>
+                                <td>static</td>
+                                <td>st</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>position</td>
+                                <td>po</td>
+                                <td>relative</td>
+                                <td>re</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>position</td>
+                                <td>po</td>
+                                <td>absolute</td>
+                                <td>ab</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>position</td>
+                                <td>po</td>
+                                <td>fixed</td>
+                                <td>fi</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>top</td>
+                                <td>t</td>
+                                <td>0, 1, 2</td>
+                                <td>0, 1, 2</td>
+                                <td>n</td>
+                            </tr>
+                            <tr>
+                                <td>bottom</td>
+                                <td>b</td>
+                                <td>0, 1, 2</td>
+                                <td>0, 1, 2</td>
+                                <td>n</td>
+                            </tr>
+                            <tr>
+                                <td>left</td>
+                                <td>l</td>
+                                <td>0, 1, 2</td>
+                                <td>0, 1, 2</td>
+                                <td>n</td>
+                            </tr>
+                            <tr>
+                                <td>right</td>
+                                <td>r</td>
+                                <td>0, 1, 2</td>
+                                <td>0, 1, 2</td>
+                                <td>n</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="special-case">x-center</td>
+                                <td>margin: 0; position: absolute; left: 50%; transform: translateX(-50%);</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="special-case">y-center</td>
+                                <td>margin: 0; position: absolute; top: 50%; transform: translateY(-50%);</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="special-case">xy-center</td>
+                                <td>margin: 0; position: absolute; left: 50%; top: 50%; transform: translate(-50%,
+                                    -50%);</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="special-case">sticky</td>
+                                <td>position: sticky !important;</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="special-case">fixed-bottom
+                                <td> position: fixed; right: 0; bottom: 0; left: 0; z-index: 1030;</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td class="special-case">absolute-fill</td>
+                                <td> top: 0; right: 0; bottom: 0; left: 0;</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+
+                            <tr>
+                                <td>float</td>
+                                <td>fo</td>
+                                <td>left</td>
+                                <td>l</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>float</td>
+                                <td>fo</td>
+                                <td>right</td>
+                                <td>r</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>float</td>
+                                <td>fo</td>
+                                <td>none</td>
+                                <td>no</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>float</td>
+                                <td>fo</td>
+                                <td>both</td>
+                                <td>bo</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>z-index</td>
+                                <td>zi</td>
+                                <td>0, 1, 2, 3, 4, 5, 10, 20, 30, 40, 50, 999, 9999</td>
+                                <td>0, 1, 2, 3, 4, 5, 10, 20, 30, 40, 50, 999, 9999</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>z-index</td>
+                                <td>zi</td>
+                                <td></td>
+                                <td class="special-case">max</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>z-index</td>
+                                <td>zi</td>
+                                <td>inherit</td>
+                                <td>ih</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>z-index</td>
+                                <td>zi</td>
+                                <td>initial</td>
+                                <td>ii</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>z-index</td>
+                                <td>zi</td>
+                                <td>auto</td>
+                                <td>au</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>z-index</td>
+                                <td>zi</td>
+                                <td>unet</td>
+                                <td>un</td>
+                                <td></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <div class="di-fl fd-ro ai-ce mb-4">
+                        <div class="wi-25 he-15 bc-orange-13 bsw-1 bo-black"></div>
+                        <p class="pl-1 fs-1 italic">Special case CSS class names and classes with more than one
+                            property and classes that are different to the Stooge CSS name format. </p>
+                    </div>
+
+                    <div class="wi-100-p bsw-1 he-20a mt-2 pa-1 po-re mb-2">
+                        <div class="he-4 wi-65 bc-green-15 xy-center fs-1 ta-ce white">xy-center</div>
+                        <div class="he-4 wi-65 bc-indigo-14 y-center fs-1 ta-ce white">y-center </div>
+                        <div class="he-4 wi-65 bc-purple-deep-7 x-center fs-1 ta-ce white">x-center</div>
+                        <div class="po-ab b-1 r-2 he-4 wi-65 bc-cyan-10 fs-1 ta-ce white">po-ab b-1 r-2</div>
+                    </div>
+
+                    <p>In the outer div, it uses <span class="code fw-5">po-re</span> to make it <span
+                            class="italic">position: relative</span></p>
+                    <p>Each of the four rectangles have shape and text by these classes: <span
+                            class="code fw-5">he-4</span> - <span class="italic">height: 4rem</span>, <span
+                            class="code fw-5">we-65</span> - <span class="italic">width: 6.5rem</span>, <span
+                            class="code fw-5">fs-1</span> - <span class="italic">font-size: 1rem</span>, <span
+                            class="code fw-5">ta-ce</span> - <span class="italic">text-align: center</span>, <span
+                            class="code fw-5">white</span> - <span class="italic">color: #fff</span></p>
+                    <p class="mt-2">HTML:</p>
+                    <pre class="mt-1 pa-1 br-075 pt-25 po-re wi-100-p"><code>&lt;div class="wi-100-p bsw-1 he-20a mt-2 pa-1 po-re mb-2"&gt;
+    &lt;div class="he-4 wi-65 bc-green-15 xy-center fs-1 ta-ce white"&gt;xy-center&lt;/div&gt;
+    &lt;div class="he-4 wi-65 bc-indigo-14 y-center fs-1 ta-ce white"&gt;y-center &lt;/div&gt;
+    &lt;div class="he-4 wi-65 bc-purple-deep-7 x-center fs-1 ta-ce white"&gt;x-center&lt;/div&gt;
+    &lt;div class="po-ab b-1 r-2 he-4 wi-65 bc-cyan-10 fs-1 ta-ce white"&gt;po-ab b-1 r-2&lt;/div&gt;
+&lt;/div&gt;
+</code><button class="btn btn-copy">Copy</button></pre>
+
+
+                    <div class="mt-25"><span class="id" id="container"> &nbsp; </span></div>
+                    <div class="mt-3 mb-3">
+                        <h3>Containers</h3>
+                        <p>Containers are commonly used base components of a webpages layout. </p>
+                        <p class="mt-15">The <span class="code fw-5">.container</span> class has padding, max-width,
+                            centering and
+                            responsive code with a max-width for each
+                            breakpoint.</p>
+                        <pre class="mt-1 pa-1 br-075 pt-25 po-re wi-20a"><code>&lt;div class="container"&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &lt;!-- Content here --&gt;
+&lt;/div&gt;</code><button class="btn btn-copy">Copy</button></pre>
+                        <p class="mt-15"><span class="code fw-5">.container-fluid</span> has no maximum width. Width
+                            adjusts to the screen size with a fixed padding.</p>
+                        <pre class="mt-1 pa-1 br-075 pt-25 po-re wi-20a"><code>&lt;div class="container-fluid"&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &lt;!-- Content here --&gt;
+&lt;/div&gt;</code><button class="btn btn-copy">Copy</button></pre>
+
+
+                        <p class="mt-15"><span class="code fw-5">.wrapper</span> has padding and maximum width only.
+                            Similar to <span class="code fw-5">.container</span> but without <span
+                                class="italic">margin-left: auto</span> and <span class="italic">margin-right:
+                                auto</span>.</p>
+                        <pre class="mt-1 pa-1 br-075 pt-25 po-re wi-20a"><code>&lt;div class="wrapper"&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &lt;!-- Content here --&gt;
+&lt;/div&gt;</code><button class="btn btn-copy">Copy</button></pre>
+
+                    </div>
+
+
+                    <div class="mt-4"><span class="id" id="flex"> &nbsp; </span></div>
+                    <h3>Flexbox and Responsiveness</h3>
+
+                    <p>Use the green columns (second and fourth columns) to get the property and
+                        value you want eg mt-05. Seperate it by a '-' dash.</p>
+
+                    <table class="mt-05 mb-25">
+                        <thead>
+                            <tr>
+                                <td class="wi-20-p">Property</td>
+                                <td class="wi-10-p">Abbrev</td>
+                                <td class="wi-50-p">Value</td>
+                                <td class="wi-10-p">Abbrev</td>
+                                <td class="wi-10-p">Units</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>flex</td>
+                                <td>fl</td>
+                                <td>initial</td>
+                                <td>ii</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>flex</td>
+                                <td>fl</td>
+                                <td>auto</td>
+                                <td>au</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>flex</td>
+                                <td>fl</td>
+                                <td>none</td>
+                                <td>no</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>flex</td>
+                                <td>fl</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>flex</td>
+                                <td>fl</td>
+                                <td>2</td>
+                                <td>2</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>flex</td>
+                                <td>fl</td>
+                                <td>3</td>
+                                <td>3</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>flex</td>
+                                <td>fl</td>
+                                <td>4</td>
+                                <td>4</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>fl</td>
+                                <td>auto</td>
+                                <td>flex: 1 1 auto; min-width: 0; min-height: 0</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>flex-grow</td>
+                                <td>fg</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>flex-grow</td>
+                                <td>fg</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>flex-shrink</td>
+                                <td>fh</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>flex-shrink</td>
+                                <td>fh</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>flex-direction</td>
+                                <td>fd</td>
+                                <td>row</td>
+                                <td>ro</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>flex-direction</td>
+                                <td>fd</td>
+                                <td>row-reverse</td>
+                                <td>rr</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>flex-direction</td>
+                                <td>fd</td>
+                                <td>column</td>
+                                <td>co</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>flex-direction</td>
+                                <td>fd</td>
+                                <td>column-reverse</td>
+                                <td>cr</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>flex-wrap</td>
+                                <td>fw</td>
+                                <td>wrap</td>
+                                <td>wr</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>flex-wrap</td>
+                                <td>fw</td>
+                                <td>wrap-reverse</td>
+                                <td>we</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>flex-wrap</td>
+                                <td>fw</td>
+                                <td>nowrap</td>
+                                <td>nw</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>align-items</td>
+                                <td>ai</td>
+                                <td>flex-start</td>
+                                <td>fs</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>align-items</td>
+                                <td>ai</td>
+                                <td>flex-end</td>
+                                <td>fe</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>align-items</td>
+                                <td>ai</td>
+                                <td>flex-auto</td>
+                                <td>fa</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>align-items</td>
+                                <td>ai</td>
+                                <td>center</td>
+                                <td>ce</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>align-items</td>
+                                <td>ai</td>
+                                <td>baseline</td>
+                                <td>ba</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>align-items</td>
+                                <td>ai</td>
+                                <td>stretch</td>
+                                <td>st</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>align-content</td>
+                                <td>ac</td>
+                                <td>flex-start</td>
+                                <td>fs</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>align-content</td>
+                                <td>ac</td>
+                                <td>flex-end</td>
+                                <td>fe</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>align-content</td>
+                                <td>ac</td>
+                                <td>center</td>
+                                <td>ce</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>align-content</td>
+                                <td>ac</td>
+                                <td>space-between</td>
+                                <td>sp</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>align-content</td>
+                                <td>ac</td>
+                                <td>space-around</td>
+                                <td>sa</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>align-content</td>
+                                <td>ac</td>
+                                <td>stretch</td>
+                                <td>st</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>align-self</td>
+                                <td>as</td>
+                                <td>flex-start</td>
+                                <td>fs</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>align-self</td>
+                                <td>as</td>
+                                <td>flex-end</td>
+                                <td>fe</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>align-self</td>
+                                <td>as</td>
+                                <td>center</td>
+                                <td>ce</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>align-self</td>
+                                <td>as</td>
+                                <td>baseline</td>
+                                <td>ba</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>align-self</td>
+                                <td>as</td>
+                                <td>stretch</td>
+                                <td>st</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>align-self</td>
+                                <td>as</td>
+                                <td>flex-auto</td>
+                                <td>fa</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>justify-content</td>
+                                <td>jc</td>
+                                <td>flex-start</td>
+                                <td>fs</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>justify-content</td>
+                                <td>jc</td>
+                                <td>flex-end</td>
+                                <td>fe</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>justify-content</td>
+                                <td>jc</td>
+                                <td>center</td>
+                                <td>ce</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>justify-content</td>
+                                <td>jc</td>
+                                <td>space-between</td>
+                                <td>sp</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>justify-content</td>
+                                <td>jc</td>
+                                <td>space-around</td>
+                                <td>sa</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+                    <p>Add '-m1' to '-m5' to get the responsiveness you require. Add '-m3' to the class to make the
+                        class work for screen sizes under 1200px. To get max-width: 75% for screens below 1800px, you
+                        add <span class="code fw-5">mw-75-p-m2</span>.</p>
+
+                    <table class="mt-05">
+                        <thead>
+                            <tr>
+                                <td>max-width</td>
+                                <td>Class</td>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>min-width 1800px</td>
+                                <td>-m1</td>
+                            </tr>
+                            <tr>
+                                <td>max-width 1800px</td>
+                                <td>-m2</td>
+                            </tr>
+                            <tr>
+                                <td>max-width 1200px</td>
+                                <td>-m3</td>
+                            </tr>
+                            <tr>
+                                <td>max-width 900px</td>
+                                <td>-m4</td>
+                            </tr>
+                            <tr>
+                                <td>max-width 600px</td>
+                                <td>-m5</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <p class="mt-5">In this example below, for desktop width, the blue box is flex row and height is 6.5
+                        rem, below
+                        1200px, the blue box becomes flex column with height 16rem.</p>
+                    <p>The main classes are <span class="code fw-5">di-fl</span> (<span class="italic">display:
+                            flex</span>), <span class="code fw-5">fd-ro</span> (<span class="italic">flex-direction: row
+                            !important</span>) and
+                        <span class="code fw-5">fd-co-m3</span>
+                        (<span class="italic">flex-direction: column !important</span> below 1200px)</p>
+                    <p>For child items, <span class="code fw-5">fl-auto</span> (<span class="italic">flex: 1 1 auto;
+                            min-width: 0;min-height:0</span>)</p>
+
+                    <div class="wi-100 he-65 mt-15 bc-blue-17 he-16-m3">
+                        <div class="di-fl fd-ro wi-100-p he-100-p fd-co-m3">
+                            <div class="fl-auto bc-orange-10 bsw-7 bo-purple-17 ma-075 pt-025 fs-1 ta-ce white">1</div>
+                            <div class="fl-auto bc-orange-10 bsw-7 bo-purple-17 ma-075 pt-025 fs-1 ta-ce white">2</div>
+                            <div class="fl-auto bc-orange-10 bsw-7 bo-purple-17 ma-075 pt-025 fs-1 ta-ce white">3</div>
+                            <div class="fl-auto bc-orange-10 bsw-7 bo-purple-17 ma-075 pt-025 fs-1 ta-ce white">4</div>
+                        </div>
+                    </div>
+
+                    <pre class="mt-1 pa-1 br-075 pt-25 po-re wi-100-p"><code>&lt;div class="wi-100 he-65 mt-15 bc-blue-17 he-16-m3"&gt;
+    &lt;div class="di-fl fd-ro wi-100-p he-100-p fd-co-m3"&gt;
+        &lt;div class="fl-auto bc-orange-10 bsw-7 bo-purple-17 ma-075 pt-025 fs-1 ta-ce white">1&lt;/div&gt;
+        &lt;div class="fl-auto bc-orange-10 bsw-7 bo-purple-17 ma-075 pt-025 fs-1 ta-ce white">2&lt;/div&gt;
+        &lt;div class="fl-auto bc-orange-10 bsw-7 bo-purple-17 ma-075 pt-025 fs-1 ta-ce white">3&lt;/div&gt;
+        &lt;div class="fl-auto bc-orange-10 bsw-7 bo-purple-17 ma-075 pt-025 fs-1 ta-ce white">4&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code><button class="btn btn-copy">Copy</button></pre>
+                </div>
+            </section>
+
+        </main>
+
+    </div> <!-- grid-structure -->
+
+    <footer class="he-10 zi-5 po-re wi-100-p bc-red-13">
+        <div class="container px-7 py-1 he-100-p">
+            <div class="footer__flex di-fl">
+                <div class="fl-3 fl-2-m4 pl-2 pl-05-m4 sans-serif white">
+                    <div class="di-fl fd-co jc-ce">
+                        <p class="footer__logo di-ib wi-10 he-25 ma-0 px-1 py-025 ta-ce br-3 bsw-1 fs-125 font-mono fw-6 bc-blue-14 white
+                            bo-white">Stooge CSS</p>
+                        <p class="footer_cont mt-05 wi-16 fs-0875 lh-125 mb-05">We want to make Stooge CSS even greater, so plesae <a href="https://github.com/chrisjwaddell/Stooge-CSS/blob/main/CONTRIBUTIONS.md" class="link white underline link-visited">contribute</a>.</p>
+                        <p class="footer_licence fs-0875 lh-125">Licensed under MIT</p>
+                    </div>
+                </div>
+
+
+                <div class="fl-2 pr-4">
+                    <p class="mt-05 ta-ce white fs-15 fs-125-m4 arial mb-075 fw-6">Contact me on social media</p>
+                    <div class="di-fl jc-ce">
+                        <div class="di-fl fd-ro">
+                            <a aria-label="Fork on github" href="https://github.com/chrisjwaddell/Stooge-CSS"
+                                class="di-ib mr-35 hover-rotate-360 tr-tr">
+                                <svg width="45" height="45" viewBox="0 0 16 16" version="1.1">
+                                    <circle cx="8" cy="8" r="8" style="fill: #000000;"></circle>
+                                    <path style="fill: #ffffff" fill-rule="evenodd"
+                                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                                    </path>
+                                </svg>
+                            </a>
+
+                            <a aria-label="Twitter" href="https://twitter.com/waddellchrisj"
+                                class="di-ib hover-rotate-360 tr-tr">
+                                <svg version="1.1" width="45" height="45" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 400"
+                                    xml:space="preserve">
+                                    <style type="text/css">
+                                        .st0 {
+                                            fill: #1B9DF0;
+                                        }
+
+                                        .st1 {
+                                            fill: #FFFFFF;
+                                        }
+                                    </style>
+                                    <g>
+                                        <circle class="st0" cx="200" cy="200" r="200" />
+                                    </g>
+                                    <g>
+                                        <path class="st1" d="M163.4,305.5c88.7,0,137.2-73.5,137.2-137.2c0-2.1,0-4.2-0.1-6.2c9.4-6.8,17.6-15.3,24.1-25
+    c-8.6,3.8-17.9,6.4-27.7,7.6c10-6,17.6-15.4,21.2-26.7c-9.3,5.5-19.6,9.5-30.6,11.7c-8.8-9.4-21.3-15.2-35.2-15.2
+    c-26.6,0-48.2,21.6-48.2,48.2c0,3.8,0.4,7.5,1.3,11c-40.1-2-75.6-21.2-99.4-50.4c-4.1,7.1-6.5,15.4-6.5,24.2
+    c0,16.7,8.5,31.5,21.5,40.1c-7.9-0.2-15.3-2.4-21.8-6c0,0.2,0,0.4,0,0.6c0,23.4,16.6,42.8,38.7,47.3c-4,1.1-8.3,1.7-12.7,1.7
+    c-3.1,0-6.1-0.3-9.1-0.9c6.1,19.2,23.9,33.1,45,33.5c-16.5,12.9-37.3,20.6-59.9,20.6c-3.9,0-7.7-0.2-11.5-0.7
+    C110.8,297.5,136.2,305.5,163.4,305.5" />
+                                    </g>
+                                </svg>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+<script src="./scripts/dom.js"></script>
+
+</html>
