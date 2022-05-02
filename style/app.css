@@ -91,7 +91,7 @@ footer p {
     display: none;
     position: absolute;
     top: 40px;
-    left: calc(50% - 150px);
+    left: calc(50% - 125px);
 }
 
 .dropbtn {
@@ -132,7 +132,7 @@ footer p {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  width: 300px;
+  width: 250px;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -337,6 +337,12 @@ table tr td.special-case {
   }
   .main__section table.components td:nth-of-type(2) {
     width: 40%;
+  }
+  .main__section table.fivecol td:nth-of-type(1) {
+    width: 18%;
+  }
+  .main__section table.fivecol td:nth-of-type(2), .main__section table.fivecol td:nth-of-type(4), .main__section table.fivecol td:nth-of-type(5) {
+    width: 8%;
   }
 
 
