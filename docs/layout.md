@@ -86,10 +86,9 @@
 
 
 ## Other classes
-The following classes are for absolute positioning:
-`sticky` - position: sticky !important;
-`fixed-bottom`
-`absolute-fill`
-`x-center`
-`y-center`
+The following classes are for absolute positioning:\`sticky` - position: sticky !important;\
+`fixed-bottom`\
+`absolute-fill`\
+`x-center`\
+`y-center`\
 `xy-center`

@@ -35,14 +35,14 @@ There are some common pre-defined values eg
 
 
 ### Units
-If units are not in, *rem* units are used in most cases. *p* is percentage, *n* is negative, *vh* is vh
-`mw-50-p` is *max-width: 50%*
-`ma-1-n` is *margin: -1rem*
+If units are not in, *rem* units are used in most cases. *p* is percentage, *n* is negative, *vh* is vh\
+`mw-50-p` is *max-width: 50%*\
+`ma-1-n` is *margin: -1rem*\
 `he-100-vh` is *height: 100vh*
 
 
 ### Responsiveness
-Just add *-m1*, *-m2*, up to *-m5* to the class name.
+Just add *-m1*, *-m2*, up to *-m5* to the class name.\
 `wi-100-p-m1 wi-50-p-m3` would give you width of 100% and 50% for devices smaller than 1200px.
 
 

@@ -49,6 +49,6 @@
 | vertical-align | va | bottom | b | |
 
 ## Other classes
-`measure` - max-width: 30em;
-`measure-wide` - max-width: 34em;
+`measure` - max-width: 30em;\
+`measure-wide` - max-width: 34em;\
 `measure-narrow` - max-width: 20em;
