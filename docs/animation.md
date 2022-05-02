@@ -89,8 +89,9 @@ Transition classes are included by default for text animations. If you want to d
 | tr-slow, hover/focus-tr-slow | Slow transition - 1s |
 
 You can have different transitions statements for :hover and :focus with different timings however browsers may not all function as predicted.
-An example of some classes used together:
-`hover-outline hover-bg-blue-12 focus-bw-6 focus-underline hover-tr-all hover-tr-slow focus-tr-all focus-tr-fast`
+
+An example of some classes used together:\
+`hover-outline hover-bg-blue-12 focus-bw-6 focus-underline hover-tr-all hover-tr-slow focus-tr-all focus-tr-fast`\
 hover - outline bg-blue-12 - slow transition (hover-tr-all hover-tr-slow)
 focus - bw-6 underline  - fast transition ( focus-tr-all focus-tr-fast)
 
