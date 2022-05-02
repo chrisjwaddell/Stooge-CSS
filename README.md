@@ -3,7 +3,7 @@ Stooge CSS is a utility-based CSS framework with intuitive, consistent CSS class
 
 Stooge CSS has components, responsiveness and an easy to use color system. So easy and so powerful.
 
-Margin and padding are easier to understand eg pl-35 is padding-left: 3.5rem;. You can add buttons with any font colour, background, border, shadows or with hover effects all in one line of code. You can add any button you want with any colour or size, and it takes 20 seconds.
+Margin and padding are easier to understand eg `pl-35` is padding-left: 3.5rem;. You can add buttons with any font colour, background, border, shadows or with hover effects all in one line of code. You can add any button you want with any colour or size, and it takes 20 seconds.
 
 View the [Stooge CSS Documentation](https://chrisjwaddell.github.io/Stooge-CSS/index.html) page here.
 
