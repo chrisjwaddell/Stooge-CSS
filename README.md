@@ -8,11 +8,11 @@ Margin and padding are easier to understand eg `pl-35` is padding-left: 3.5rem;.
 View the [Stooge CSS Documentation](https://chrisjwaddell.github.io/Stooge-CSS/index.html) page here.
 
 ## How Stooge CSS works
-There are two parts to the CSS class name (three if you use units other than *rem*). The format is as follows:\
+There are two parts to the CSS class name (three if you use units other than *rem*). The format is as follows:\\
 `(property name abbreviation)-(value abbreviation)`
 
-eg *line-height: 1.25* becomes `lh-125`.
-*border-width: 4.5rem* becomes `bw-45`.
+eg `wi-25` is  *width: 2.5rem*
+`bw-45` is *border-width: 4.5rem*
 
 There are two characters representing a property so coding it's fast.
 
