@@ -32,6 +32,10 @@ main {
     background-image: linear-gradient(to bottom right, #2979ff, #7949cc);
 }
 
+table {
+    word-break: break-word;
+}
+
 .stoogecss p {
     margin: 0;
 }
