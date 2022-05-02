@@ -49,9 +49,9 @@
 .bg-t {
     background-repeat: no-repeat;
     background-position: top center;
-}
-`bg-b` - bottom
-`bg-ce` - center center
+}\
+`bg-b` - bottom \
+`bg-ce` - center center\
 `bg-r` - center right
 
 .collapse {
@@ -66,7 +66,7 @@
 .bbr-0, .blr-0, .bbr-0
 
 
-`hover-shadow` - hover creates a shadow\
+`hover-shadow` - hover creates a shadow \
 `shadow1-5`, `press-shadow1-5` - creates shadows
 
 
