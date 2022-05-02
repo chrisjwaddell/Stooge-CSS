@@ -28,8 +28,8 @@
 | letter-spacing | ls | 005-n, 01, 025 | | |
 
 ## Other classes
-subheadline - font-size: 1.75rem;
-headline - font-size: 2.5rem;
+'subheadline' - font-size: 1.75rem;
+'headline' - font-size: 2.5rem;
 
 
 .truncate {
@@ -38,13 +38,20 @@ headline - font-size: 2.5rem;
     text-overflow: ellipsis
 }
 
-link - has some defaults for an anchor link
+'link' - has some defaults for an anchor link
 
 .list {
     list-style-type: none;
 }
 
-kbd - for showing keyboard buttons
+'kbd' - for showing keyboard buttons
 
-code-green, blue1, blue2, red, grey, p, o, y - for similating code in an editor
+Code font coloring classes, use with the `code` class to similating code in an editor. It's 'cd-' with the first and last letter of the color.
+`cd-gn` - Green
+`cd-gy` - Grey
+`cd-be` - Blue
+`cd-rd` - Red
+`cd-oe` - Orange
+`cd-pe` - Purple
+`cd-yw` - Yellow
 

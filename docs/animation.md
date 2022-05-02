@@ -13,7 +13,7 @@ The *hf-* (hover and focus) group of class names are hover and focus combined. W
 
 Font properties below can be animated on hover and on focus. They come with default transition. For color animation on text, see the Color Animation section.
 
-Animation on colors must include a transition class. If you do animation on multiple properties, use the *tr-all* class.
+Animation on colors must include a transition class. If you do animation on multiple properties, use the `tr-all` class.
 
 
 
@@ -90,7 +90,7 @@ Transition classes are included by default for text animations. If you want to d
 
 You can have different transitions statements for :hover and :focus with different timings however browsers may not all function as predicted.
 An example of some classes used together:
-*hover-outline hover-bg-blue-12 focus-bw-6 focus-underline hover-tr-all hover-tr-slow focus-tr-all focus-tr-fast*
+`hover-outline hover-bg-blue-12 focus-bw-6 focus-underline hover-tr-all hover-tr-slow focus-tr-all focus-tr-fast`
 hover - outline bg-blue-12 - slow transition (hover-tr-all hover-tr-slow)
 focus - bw-6 underline  - fast transition ( focus-tr-all focus-tr-fast)
 

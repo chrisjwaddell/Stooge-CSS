@@ -66,8 +66,7 @@ bg-r - center right
 .bbr-0, .blr-0, .bbr-0
 
 
-hover-shadow - hover creates a shadow
-shadow1-5, press-shadow1-5 - creates shadows
+'hover-shadow' - hover creates a shadow
+'shadow1-5', 'press-shadow1-5' - creates shadows
 
-pre
 
