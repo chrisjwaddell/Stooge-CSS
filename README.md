@@ -12,38 +12,38 @@ There are two parts to the CSS class name (three if you use units other than *re
 *property-value*
 
 There are two characters representing property so coding it's fast.
-eg *line-height: 1.25* becomes *lh-125*.
-*border-width: 4.5rem* becomes *bw-45*
+eg *line-height: 1.25* becomes `lh-125`.
+*border-width: 4.5rem* becomes `bw-45`.
 
 
 ### Property name
 Each CSS property is referred to by it's first two characters. If it has two words, it's the initials of those first two words.
 Note: There are exceptions to that if a two letter combination is taken.
 
-Margin is *ma*, word-spacing is *ws*.
+Margin is `ma`, word-spacing is `ws`.
 
 
 ### Value
 There are some common pre-defined values eg
-*mx-3* is defined as:
+`mx-3` is defined as:
 .mx-3 {
     margin-left: 3rem;
     margin-right: 3 rem;
 }
 
-*di-ib* is *display: inline-block;*
+`di-ib` is *display: inline-block;*
 
 
 ### Units
 If units are not in, *rem* units are used in most cases. *p* is percentage, *n* is negative, *vh* is vh
-*mw-50-p* is *max-width: 50%*
-*ma-1-n* is *margin: -1rem*
-*he-100-vh* is *height: 100vh*
+`mw-50-p` is *max-width: 50%*
+`ma-1-n` is *margin: -1rem*
+`he-100-vh` is *height: 100vh*
 
 
 ### Responsiveness
 Just add *-m1*, *-m2*, up to *-m5* to the class name.
-*wi-100-p-m1 wi-50-p-m3* would give you width of 100% and 50% for devices smaller than 1200px.
+`wi-100-p-m1 wi-50-p-m3` would give you width of 100% and 50% for devices smaller than 1200px.
 
 
 # How to get started
