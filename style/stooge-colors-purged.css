@@ -2011,9 +2011,6 @@
 .bo-orange-3 {
   border-color: #ffe0b2
 }
-.bo-green-3 {
-  border-color: #c8e6c9
-}
 .bo-green-9 {
   border-color: #81c784
 }
@@ -2022,9 +2019,6 @@
 }
 .bo-lime-5 {
   border-color: #cddc39
-}
-.bo-lime-10 {
-  border-color: #9e9d24
 }
 .bo-teal-15 {
   border-color: #00897b
@@ -2068,12 +2062,6 @@
 .hover-inherit {
   color: inherit
 }
-.hover-red-4:hover {
-  color: #f9acaa
-}
-.hover-red-4:focus {
-  color: #f9acaa
-}
 .hover-red-12:hover {
   color: #e53935
 }
@@ -2109,12 +2097,6 @@
 }
 .hover-brown-8:focus {
   color: #b92f2f
-}
-.hover-cyan-8:hover {
-  color: #26c6da
-}
-.hover-cyan-8:focus {
-  color: #26c6da
 }
 .hover-white:hover {
   color: #fff

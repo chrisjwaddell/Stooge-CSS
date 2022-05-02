@@ -18,7 +18,7 @@ aside nav {
     left: 0;
     height: calc(95vh - 4rem);
     padding: 0.5rem;
-    overflow-y: auto;
+    overflow-y: visible;
     font-size: 1.5rem;
 }
 
@@ -32,9 +32,6 @@ main {
     background-image: linear-gradient(to bottom right, #2979ff, #7949cc);
 }
 
-table td {
-    word-break: break-all;
-}
 
 .stoogecss p {
     margin: 0;
@@ -327,20 +324,18 @@ table tr td.special-case {
       font-size: 0.8rem;
   }
 
+  table td {
+    word-break: break-all;
+  }
+
   .main__section table.components td:nth-of-type(1) {
-    width: 50%;
+    width: 40%;
   }
   .main__section table.components td:nth-of-type(2) {
-    width: 25%;
+    width: 30%;
   }
   .main__section table.components td:nth-of-type(3) {
-    width: 20%;
-  }
-  .main__section table.components td:nth-of-type(1) {
-    width: 50%;
-  }
-  .main__section table.components td:nth-of-type(2) {
-    width: 40%;
+    width: 30%;
   }
   .main__section table.fivecol td:nth-of-type(1) {
     width: 15%;

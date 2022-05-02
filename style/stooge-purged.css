@@ -57,9 +57,7 @@ img {
   border-style: none
 }
 button,
-input,
-select,
-textarea {
+input {
   font-family: inherit;
   font-size: 100%;
   line-height: 1.15;
@@ -69,8 +67,7 @@ button,
 input {
   overflow: visible
 }
-button,
-select {
+button {
   text-transform: none
 }
 [type=button],
@@ -85,9 +82,6 @@ button::-moz-focus-inner {
 [type=button]:-moz-focusring,
 button:-moz-focusring {
   outline: 1px dotted ButtonText
-}
-textarea {
-  overflow: auto
 }
 [type=number]::-webkit-inner-spin-button,
 [type=number]::-webkit-outer-spin-button {
@@ -121,7 +115,6 @@ h4,
 h5,
 header,
 html,
-i,
 img,
 kbd,
 li,
@@ -181,7 +174,6 @@ div,
 footer,
 header,
 html,
-i,
 img,
 input,
 kbd,
@@ -191,13 +183,11 @@ p,
 pre,
 s,
 section,
-select,
 strike,
 strong,
 table,
 tbody,
 td,
-textarea,
 thead,
 tr,
 tt,
@@ -427,9 +417,6 @@ pre code {
 .fl-3 {
   flex: 3
 }
-.fl-4 {
-  flex: 4
-}
 .fg-1 {
   flex-grow: 1
 }
@@ -543,9 +530,6 @@ pre code {
 .wi-25 {
   width: 2.5rem
 }
-.wi-5 {
-  width: 5rem
-}
 .wi-6 {
   width: 6rem
 }
@@ -567,18 +551,6 @@ pre code {
 .wi-16 {
   width: 16rem
 }
-.wi-20a {
-  width: 20rem
-}
-.wi-25a {
-  width: 25rem
-}
-.wi-40a {
-  width: 40rem
-}
-.wi-50a {
-  width: 50rem
-}
 .wi-10-p {
   width: 10%
 }
@@ -597,14 +569,8 @@ pre code {
 .wi-60-p {
   width: 60%
 }
-.wi-70-p {
-  width: 70%
-}
 .wi-80-p {
   width: 80%
-}
-.wi-85-p {
-  width: 85%
 }
 .wi-90-p {
   width: 90%
@@ -614,6 +580,9 @@ pre code {
 }
 .wi-30-vw {
   width: 30vw
+}
+.mw-20a {
+  max-width: 20rem
 }
 .mw-32a {
   max-width: 32rem
@@ -684,9 +653,6 @@ pre code {
 .mh-55a {
   max-height: 55rem
 }
-.me-6 {
-  min-height: 6rem
-}
 .ma-auto {
   margin: 0 auto
 }
@@ -698,9 +664,6 @@ pre code {
 }
 .ma-1 {
   margin: 1rem
-}
-.ma-2 {
-  margin: 2rem
 }
 .ma-25 {
   margin: 2.5rem
@@ -719,9 +682,6 @@ pre code {
 }
 .ml-45 {
   margin-left: 4.5rem
-}
-.ml-5 {
-  margin-left: 5rem
 }
 .ml-6 {
   margin-left: 6rem
@@ -838,10 +798,6 @@ pre code {
   margin-top: 2rem;
   margin-bottom: 2rem
 }
-.my-25 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem
-}
 .ma-1-n {
   margin: -1rem
 }
@@ -863,9 +819,6 @@ pre code {
 .pl-1 {
   padding-left: 1rem
 }
-.pl-15 {
-  padding-left: 1.5rem
-}
 .pl-2 {
   padding-left: 2rem
 }
@@ -874,9 +827,6 @@ pre code {
 }
 .pl-4 {
   padding-left: 4rem
-}
-.pr-2 {
-  padding-right: 2rem
 }
 .pr-25 {
   padding-right: 2.5rem
@@ -887,14 +837,11 @@ pre code {
 .pb-0 {
   padding-bottom: 0
 }
-.pb-025 {
-  padding-bottom: .25rem
+.pb-05 {
+  padding-bottom: .5rem
 }
 .pb-1 {
   padding-bottom: 1rem
-}
-.pb-2 {
-  padding-bottom: 2rem
 }
 .pb-4 {
   padding-bottom: 4rem
@@ -907,6 +854,10 @@ pre code {
 }
 .pt-25 {
   padding-top: 2.5rem
+}
+.px-05 {
+  padding-left: .5rem;
+  padding-right: .5rem
 }
 .px-075 {
   padding-left: .75rem;
@@ -943,10 +894,6 @@ pre code {
 .py-1 {
   padding-top: 1rem;
   padding-bottom: 1rem
-}
-.py-15 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem
 }
 .py-2 {
   padding-top: 2rem;
@@ -1033,9 +980,6 @@ pre code {
   border-bottom-style: solid;
   border-bottom-width: 1px
 }
-.br-0 {
-  border-radius: 0
-}
 .br-025 {
   border-radius: .25rem
 }
@@ -1090,11 +1034,6 @@ pre code {
 .shadow-2 {
   -webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.3);
   box-shadow: 0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.3)
-}
-
-.shadow-3 {
-  -webkit-box-shadow: 0 8px 17px 2px rgba(0,0,0,.14),0 3px 14px 2px rgba(0,0,0,.12),0 5px 5px -3px rgba(0,0,0,.2);
-  box-shadow: 0 8px 17px 2px rgba(0,0,0,.14),0 3px 14px 2px rgba(0,0,0,.12),0 5px 5px -3px rgba(0,0,0,.2)
 }
 .focus-shadow-4,
 .shadow-4 {
@@ -1284,28 +1223,24 @@ code {
 .ts-42 {
   text-shadow: 1.4px 1.4px .9px #000,0 0 .9px #000
 }
-.pointer:hover,
-.shadow-hover {
+.pointer:hover {
   cursor: pointer
 }
 
 .hf-italic:focus,
-.hf-italic:hover,
-.hover-italic:hover {
+.hf-italic:hover {
   font-style: italic;
   transition: font-style .35s ease-in
 }
 
 .hf-fs-normal:focus,
-.hf-fs-normal:hover,
-.hover-fs-normal:hover {
+.hf-fs-normal:hover {
   font-style: normal;
   transition: font-style .35s ease-in
 }
 
 .hf-bold:focus,
-.hf-bold:hover,
-.hover-bold:hover {
+.hf-bold:hover {
   font-weight: 700;
   transition: font-weight .35s ease-in
 }
@@ -1342,13 +1277,9 @@ code {
 }
 
 .hf-no-underline:focus,
-.hf-no-underline:hover,
-.hover-no-underline:hover {
+.hf-no-underline:hover {
   text-decoration: none!important;
   transition: text-decoration .35s ease-in
-}
-.hover-ts-11:hover {
-  text-shadow: 0 3px 1px rgba(0,0,0,.2)!important
 }
 .hover-ts-12:hover {
   text-shadow: 3px 3px 1px rgba(0,0,0,.2)!important
@@ -1445,10 +1376,6 @@ code {
   -webkit-transform: scale(1.4);
   transform: scale(1.4)
 }
-.fade {
-  opacity: 0;
-  transition: opacity .35s linear
-}
 .focus-dim:focus,
 .hover-dim:hover {
   opacity: .5
@@ -1482,28 +1409,6 @@ code {
   50% {
     opacity: .2
   }
-}
-.shadow-hover {
-  cursor: pointer;
-  position: relative;
-  transition: all .5s cubic-bezier(.165, .84, .44, 1)
-}
-.shadow-hover::after {
-  content: '';
-  box-shadow: 0 0 16px 2px rgba(0,0,0,.2);
-  border-radius: inherit;
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  transition: opacity .5s cubic-bezier(.165, .84, .44, 1)
-}
-.shadow-hover:focus::after,
-.shadow-hover:hover::after {
-  opacity: 1
 }
 .focus-tr-bc:focus,
 .tr-bc {
