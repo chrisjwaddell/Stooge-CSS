@@ -338,8 +338,11 @@ table tr td.special-case {
   .main__section table.components td:nth-of-type(2) {
     width: 40%;
   }
-  .main__section table.fivecol td:nth-of-type(1), .main__section table.fivecol td:nth-of-type(3) {
-    width: 18%;
+  .main__section table.fivecol td:nth-of-type(1) {
+    width: 15%;
+  }
+  .main__section table.fivecol td:nth-of-type(3) {
+      width: 20%;
   }
   .main__section table.fivecol td:nth-of-type(2), .main__section table.fivecol td:nth-of-type(4), .main__section table.fivecol td:nth-of-type(5) {
     width: 8%;
