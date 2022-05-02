@@ -6,8 +6,9 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const TerserPlugin = require("terser-webpack-plugin");
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
-/* It compresses both CSS and JavaScript
- * terser compresses javascript, optimize - css - assets - webpack - plugin  compresses css
+/* This generates the minified CSS production code.
+ * It compresses both CSS and JavaScript
+ * terser compresses javascript, 'optimize-css-assets-webpack-plugin'  compresses css
  * This works with the CSS-non-minify.js script, but this must run first
 */
 

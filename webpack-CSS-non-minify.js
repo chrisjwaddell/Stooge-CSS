@@ -13,8 +13,8 @@ const RemovePlugin = require('remove-files-webpack-plugin');
  * a 'rubbish' directory is created, this removes that directory.
  * The first script also clears the 'dist' directory, this script doesn't.
  * It uses clean-css-loader to remove comments out of
- * CSS code and keep only license comments
- * It doesn't minify. It beautifies as well.
+ * CSS code and keep only license comments. It beautifies as well
+ * It doesn't minify..
  */
 
 module.exports = {
