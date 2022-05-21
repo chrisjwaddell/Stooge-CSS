@@ -15,7 +15,7 @@ There are two parts to the CSS class name (three if you use units other than *re
 eg `wi-25` is  *width: 2.5rem* \
 `bw-45` is *border-width: 4.5rem*
 
-There are two characters representing a property so coding it's fast.
+There are two characters representing a property so coding is fast.
 
 ### Property name
 Each CSS property is referred to by it's first two characters. If it has two words, it's the initials of those first two words.
@@ -25,7 +25,7 @@ Margin is `ma`, word-spacing is `ws`.
 
 
 ### Value
-There are some common pre-defined values eg
+There are some common pre-defined classes eg
 `mx-3` is defined as:
 .mx-3 {
     margin-left: 3rem;
@@ -36,7 +36,7 @@ There are some common pre-defined values eg
 
 
 ### Units
-If units are not in, *rem* units are used in most cases. *p* is percentage, *n* is negative, *vh* is vh\
+The default for units is *rem*. When not using *rem*, you specify the units:- *p* is percentage, *n* is negative, *vh* is vh\
 `mw-50-p` is *max-width: 50%*\
 `ma-1-n` is *margin: -1rem*\
 `he-100-vh` is *height: 100vh*
@@ -50,8 +50,8 @@ Just add *-m1*, *-m2*, up to *-m5* to the class name.\
 # How to get started
 
 Add this to the &lt;head&gt; of your HTML file:\
-`<link href="https://cdn.rawgit.com/chrisjwaddell/Stooge-CSS/main/dist/stooge.min.css" rel="stylesheet">`\
-`<link href="https://cdn.rawgit.com/chrisjwaddell/Stooge-CSS/main/dist/stooge-responsive.min.css" rel="stylesheet">`\
+`<link href="https://cdn.rawgit.com/chrisjwaddell/Stooge-CSS/main/dist/stooge.min.css" rel="stylesheet">\
+`<link href="https://cdn.rawgit.com/chrisjwaddell/Stooge-CSS/main/dist/stooge-responsive.min.css" rel="stylesheet">\
 `<link href="https://cdn.rawgit.com/chrisjwaddell/Stooge-CSS/main/dist/stooge-colors.min.css" rel="stylesheet">`
 
 ## Table of Contents
