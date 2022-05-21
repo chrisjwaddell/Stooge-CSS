@@ -50,8 +50,8 @@ Just add *-m1*, *-m2*, up to *-m5* to the class name.\
 # How to get started
 
 Add this to the &lt;head&gt; of your HTML file:\
-`<link href="https://cdn.rawgit.com/chrisjwaddell/Stooge-CSS/main/dist/stooge.min.css" rel="stylesheet">\
-`<link href="https://cdn.rawgit.com/chrisjwaddell/Stooge-CSS/main/dist/stooge-responsive.min.css" rel="stylesheet">\
+`<link href="https://cdn.rawgit.com/chrisjwaddell/Stooge-CSS/main/dist/stooge.min.css" rel="stylesheet">`\
+`<link href="https://cdn.rawgit.com/chrisjwaddell/Stooge-CSS/main/dist/stooge-responsive.min.css" rel="stylesheet">`\
 `<link href="https://cdn.rawgit.com/chrisjwaddell/Stooge-CSS/main/dist/stooge-colors.min.css" rel="stylesheet">`
 
 ## Table of Contents
