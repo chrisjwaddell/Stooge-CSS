@@ -18,7 +18,7 @@ aside nav {
     left: 0;
     height: calc(95vh - 4rem);
     padding: 0.5rem;
-    overflow-y: visible;
+    overflow-y: auto;
     font-size: 1.5rem;
 }
 
