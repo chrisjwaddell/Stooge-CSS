@@ -1,2 +1,5 @@
 node_modules
 .jsbeautifyrc
+.vscode
+package-lock.json
+.gitignore
