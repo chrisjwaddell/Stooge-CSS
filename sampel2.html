@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stooge CSS</title>
+    <link href="https://cdn.rawgit.com/chrisjwaddell/Stooge-CSS/main/dist/stooge.min.css" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/chrisjwaddell/Stooge-CSS/main/dist/stooge-responsive.min.css" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/chrisjwaddell/Stooge-CSS/main/dist/stooge-colors.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #ffffff;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header role="banner" class="w100 he-8 bc-blue-15 pt-2 bt-solid bw-6 bo-red-13">
+        <h1 class="calisto white ta-ce">Stooge CSS</h1>
+    </header>
+
+    <article class="w-80 pa-2 pb-20">
+        <div class="w-100 pl-20 pr-20">
+            <h2 class="ta-ce">Stooge CSS</h2>
+            <p>Stooge CSS is a utility-based CSS framework with intuitive, consistent CSS class names
+                making it very
+                easy to use. Write your CSS in HTML abbreviated for super fast development.</p>
+            <p>Stooge CSS has components, responsiveness and an easy to use color system. So easy and so
+                powerful.
+            </p>
+            <p>Margin and padding are easier to understand eg <code>pl-35</code> is padding-left:
+                3.5rem;. You can
+                add buttons with any font colour, background, border, shadows or with hover effects all in one line
+                of code. You
+                can add any button you want with any colour or size, and it takes 20 seconds.</p>
+            <p>View the <a href="https://chrisjwaddell.github.io/Stooge-CSS/index.html" rel="nofollow">Stooge CSS
+                    Documentation</a> page here.</p>
+            <h2>How Stooge CSS works</h2>
+            <p>There are two parts to the CSS class name (three if you use units other than
+                <em>rem</em>). The format
+                is as follows:
+            </p>
+            <p><code>(property name abbreviation)-(value abbreviation)</code></p>
+            <p>eg <code>wi-25</code> is <em>width: 2.5rem</em> <br>
+                <code>bw-45</code> is <em>border-width: 4.5rem</em>
+            </p>
+            <p>There are two characters representing a property so coding is fast.</p>
+            <h3>Property name</h3>
+            <p>Each CSS property is referred to by it's first two characters. If it has two words, it's
+                the initials
+                of those first two words.
+                Note: There are exceptions to that if a two letter combination is taken.</p>
+            <p>Margin is <code>ma</code>, word-spacing is <code>ws</code>.</p>
+            <h3>Value</h3>
+            <p>There are some common pre-defined classes eg
+                <code>mx-3</code> is defined as:
+                .mx-3 {
+                margin-left: 3rem;
+                margin-right: 3 rem;
+                }
+            </p>
+            <p><code>di-ib</code> is <em>display: inline-block;</em></p>
+            <h3>Units</h3>
+            <p>The default for units is <em>rem</em>. When not using <em>rem</em>, you specify the
+                units:- <em>p</em>
+                is percentage, <em>n</em> is negative, <em>vh</em> is vh<br>
+                <code>mw-50-p</code> is <em>max-width: 50%</em><br>
+                <code>ma-1-n</code> is <em>margin: -1rem</em><br>
+                <code>he-100-vh</code> is <em>height: 100vh</em>
+            </p>
+            <h3>Responsiveness</h3>
+            <p>Just add <em>-m1</em>, <em>-m2</em>, up to <em>-m5</em> to the class name.<br>
+                <code>wi-100-p-m1 wi-50-p-m3</code> would give you width of 100% and 50% for devices smaller than
+                1200px.
+            </p>
+            <h1>How to get started</h1>
+            <p>Add this to the &lt;head&gt; of your HTML file:<br>
+                <code>&lt;link href="https://cdn.rawgit.com/chrisjwaddell/Stooge-CSS/main/dist/stooge.min.css" rel="stylesheet"&gt;</code><br>
+                <code>&lt;link href="https://cdn.rawgit.com/chrisjwaddell/Stooge-CSS/main/dist/stooge-responsive.min.css" rel="stylesheet"&gt;</code><br>
+                <code>&lt;link href="https://cdn.rawgit.com/chrisjwaddell/Stooge-CSS/main/dist/stooge-colors.min.css" rel="stylesheet"&gt;</code>
+            </p>
+            <h2>Table of Contents</h2>
+            <ul>
+                <li><a href="https://chrisjwaddell.github.io/Stooge-CSS/" rel="nofollow">Getting Started</a></li>
+                <li><a href="https://chrisjwaddell.github.io/Stooge-CSS/layout-and-position.html" rel="nofollow">Layout
+                        and
+                        Position</a></li>
+                <li><a href="https://chrisjwaddell.github.io/Stooge-CSS/spacing.html" rel="nofollow">Spacing</a>
+                </li>
+                <li><a href="https://chrisjwaddell.github.io/Stooge-CSS/visibility-and-box-model.html"
+                        rel="nofollow">Visibility
+                        and Box-Model</a></li>
+                <li><a href="https://chrisjwaddell.github.io/Stooge-CSS/text.html" rel="nofollow">Text</a></li>
+                <li><a href="https://chrisjwaddell.github.io/Stooge-CSS/components.html" rel="nofollow">Components</a>
+                </li>
+                <li><a href="https://chrisjwaddell.github.io/Stooge-CSS/animation.html" rel="nofollow">Animation</a>
+                </li>
+                <li><a href="https://chrisjwaddell.github.io/Stooge-CSS/responsive.html" rel="nofollow">Responsive</a>
+                </li>
+                <li><a href="https://chrisjwaddell.github.io/Stooge-CSS/colors.html" rel="nofollow">Colors</a></li>
+                <li><a href="https://chrisjwaddell.github.io/Stooge-CSS/purgecss.html" rel="nofollow">Purge CSS</a>
+                </li>
+            </ul>
+            <h1>Documentation</h1>
+            <p><a href="https://chrisjwaddell.github.io/Stooge-CSS/" rel="nofollow">See Documentation
+                    website</a>
+                OR
+                <a href="https://github.com/chrisjwaddell/Stooge-CSS/tree/main/docs">See Github Documentation</a>
+            </p>
+            <h1>Contributions</h1>
+            <p>If you'd like to help us out with the project, we welcome contributions of all types!
+                Check out our <a
+                    href="https://github.com/chrisjwaddell/Stooge-CSS/blob/main/CONTRIBUTIONS.md">CONTRIBUTING.md</a>
+                for more
+                details on how you can help make Stooge CSS amazing!</p>
+            <h1>License</h1>
+            <p>Code and documentation copyright 2022 by Chris Waddell.
+                Licensed under the <a href="https://github.com/chrisjwaddell/Stooge-CSS/blob/main/LICENSE">MIT
+                    License</a>.</p>
+
+            <div class="ta-ce">
+                <button type="button"
+                    class="btn wi-16 he-3 pb-1 px-1 fs-1 fw-4 bw-3 br-3 bodoni white bc-black bo-white hover-rotate-360 tr-tr">
+                    <a aria-label="Fork on github" href="https://github.com/chrisjwaddell/Stooge-CSS"
+                        class="di-ib ml-05 white no-underline">
+                        Stooge CSS on Github
+                        <svg width="32" height="32" viewBox="0 0 16 16" version="1.1">
+                            <circle cx="8" cy="8" r="8" style="fill: #000000;"></circle>
+                            <path style="fill: #ffffff" fill-rule="evenodd"
+                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+                            </path>
+                        </svg>
+                    </a>
+                </button>
+            </div>
+        </div>
+    </article>
+
+
+</body>
+
+</html>
