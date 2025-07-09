@@ -3,7 +3,7 @@
 <br />
 <div align="center">
     <a href="https://github.com/othneildrew/Best-README-Template">
-        <img src="dist/images/logo.jpg" alt="Logo" width="177" height="78">
+        <img src="dist/images/logo.jpg" alt="Logo" width="177" height="78" style="border-radius: 20px">
     </a>
 
 <h1 align="center">Stooge CSS</h1>
